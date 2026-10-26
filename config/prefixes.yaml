@@ -1,0 +1,11 @@
+prefixes:
+  fabric: "FAB"
+  trim: "TRM"
+  thread: "THD"
+  label: "LBL"
+  packaging: "PKG"
+  default: "GEN"
+
+code_format:
+  pad_length: 6         # Produces FAB-000001
+  separator: "-"

@@ -1,0 +1,33 @@
+new_master_code,norm_material_name,Material name,Category,cluster_id,cluster_record_count
+LBL-000001,brand label woven,Woven brand label,Label,1,1405
+LBL-000002,heat label neck transfer,Heat transfer neck label,Label,2,1413
+LBL-000003,cardboard hangtag label,Hangtag cardboard label,Label,3,1471
+LBL-000004,brand patch raised silicone,Silicone raised brand patch,Label,4,1373
+LBL-000005,label pip size woven,Woven size pip label,Label,5,1382
+LBL-000006,care label printed satin,Printed satin care label,Label,6,1471
+LBL-000007,badge embroidered patch,Embroidered patch badge,Label,7,1480
+LBL-000008,care label premium printed quality satin,"Printed satin care label, premium quality",Label,8,28
+LBL-000009,barcode care label tyvek,Tyvek barcode care label,Label,9,1410
+LBL-000010,cardboard hangtag label premium quality,"Hangtag cardboard label, premium quality",Label,10,29
+LBL-000011,100 badge embroidered patch percent,Embroidered patch badge 100%,Label,11,25
+LBL-000012,label pip pure size woven,Pure Woven size pip label,Label,12,19
+LBL-000013,100 heat label neck percent transfer,Heat transfer neck label 100%,Label,13,29
+LBL-000014,brand patch pure raised silicone,Pure Silicone raised brand patch,Label,14,30
+LBL-000015,100 brand patch percent raised silicone,Silicone raised brand patch 100%,Label,15,21
+LBL-000016,100 cardboard hangtag label percent,Hangtag cardboard label 100%,Label,16,30
+LBL-000017,brand label premium quality woven,"Woven brand label, premium quality",Label,17,24
+LBL-000018,label pip premium quality size woven,"Woven size pip label, premium quality",Label,18,23
+LBL-000019,brand label pure woven,Pure Woven brand label,Label,19,18
+LBL-000020,badge embroidered patch premium quality,"Embroidered patch badge, premium quality",Label,20,28
+LBL-000021,cardboard hangtag label pure,Pure Hangtag cardboard label,Label,21,30
+LBL-000022,100 label percent pip size woven,Woven size pip label 100%,Label,22,25
+LBL-000023,100 care label percent printed satin,Printed satin care label 100%,Label,23,26
+LBL-000024,heat label neck premium quality transfer,"Heat transfer neck label, premium quality",Label,24,30
+LBL-000025,brand patch premium quality raised silicone,"Silicone raised brand patch, premium quality",Label,25,24
+LBL-000026,care label printed pure satin,Pure Printed satin care label,Label,26,26
+LBL-000027,heat label neck pure transfer,Pure Heat transfer neck label,Label,27,19
+LBL-000028,100 barcode care label percent tyvek,Tyvek barcode care label 100%,Label,28,20
+LBL-000029,barcode care label premium quality tyvek,"Tyvek barcode care label, premium quality",Label,29,25
+LBL-000030,100 brand label percent woven,Woven brand label 100%,Label,30,19
+LBL-000031,badge embroidered patch pure,Pure Embroidered patch badge,Label,31,24
+LBL-000032,barcode care label pure tyvek,Pure Tyvek barcode care label,Label,32,24

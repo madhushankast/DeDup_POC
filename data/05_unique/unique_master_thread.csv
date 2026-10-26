@@ -1,0 +1,34 @@
+new_master_code,norm_material_name,Material name,Category,cluster_id,cluster_record_count
+THD-000001,polyester sewing thread,Polyester sewing thread,Thread,1,1614
+THD-000002,core poly poly spun thread,Core spun poly poly thread,Thread,2,1664
+THD-000003,bonded nylon thread,Bonded nylon thread,Thread,3,1661
+THD-000004,overlock textured thread,Textured overlock thread,Thread,4,1636
+THD-000005,cotton mercerized thread,Mercerized cotton thread,Thread,5,1696
+THD-000006,duty heavy thread topstitch,Heavy duty topstitch thread,Thread,6,1685
+THD-000007,cotton poly thread wrapped,Cotton wrapped poly thread,Thread,7,1709
+THD-000008,embroidery metallic thread,Metallic embroidery thread,Thread,8,1619
+THD-000009,100 duty heavy percent thread topstitch,Heavy duty topstitch thread 100%,Thread,9,25
+THD-000010,duty heavy premium quality thread topstitch,"Heavy duty topstitch thread, premium quality",Thread,10,32
+THD-000011,100 cotton mercerized percent thread,Mercerized cotton thread 100%,Thread,11,35
+THD-000012,bonded nylon pure thread,Pure Bonded nylon thread,Thread,12,25
+THD-000013,100 embroidery metallic percent thread,Metallic embroidery thread 100%,Thread,13,32
+THD-000014,100 overlock percent textured thread,Textured overlock thread 100%,Thread,14,18
+THD-000015,core poly poly pure spun thread,Pure Core spun poly poly thread,Thread,15,27
+THD-000016,cotton mercerized pure thread,Pure Mercerized cotton thread,Thread,16,20
+THD-000017,core poly poly premium quality spun thread,"Core spun poly poly thread, premium quality",Thread,17,31
+THD-000018,overlock premium quality textured thread,"Textured overlock thread, premium quality",Thread,18,42
+THD-000019,cotton poly pure thread wrapped,Pure Cotton wrapped poly thread,Thread,19,29
+THD-000020,polyester premium quality sewing thread,"Polyester sewing thread, premium quality",Thread,20,32
+THD-000021,bonded nylon premium quality thread,"Bonded nylon thread, premium quality",Thread,21,35
+THD-000022,cotton poly premium quality thread wrapped,"Cotton wrapped poly thread, premium quality",Thread,22,35
+THD-000023,cotton mercerized premium quality thread,"Mercerized cotton thread, premium quality",Thread,23,27
+THD-000024,100 cotton percent poly thread wrapped,Cotton wrapped poly thread 100%,Thread,24,33
+THD-000025,100 core percent poly poly spun thread,Core spun poly poly thread 100%,Thread,25,18
+THD-000026,overlock pure textured thread,Pure Textured overlock thread,Thread,26,37
+THD-000027,embroidery metallic premium quality thread,"Metallic embroidery thread, premium quality",Thread,27,24
+THD-000028,100 bonded nylon percent thread,Bonded nylon thread 100%,Thread,28,33
+THD-000029,poly sewing thread,Poly sewing thread,Thread,29,33
+THD-000030,polyester pure sewing thread,Pure Polyester sewing thread,Thread,30,22
+THD-000031,duty heavy pure thread topstitch,Pure Heavy duty topstitch thread,Thread,31,18
+THD-000032,embroidery metallic pure thread,Pure Metallic embroidery thread,Thread,32,29
+THD-000033,100 percent polyester sewing thread,Polyester sewing thread 100%,Thread,33,25

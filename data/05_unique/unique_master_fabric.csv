@@ -1,0 +1,85 @@
+new_master_code,norm_material_name,Material name,Category,cluster_id,cluster_record_count
+FAB-000001,cotton jersey single,Cotton single jersey,Fabric,1,1858
+FAB-000002,cotton elastane rib,Cotton elastane rib,Fabric,2,1828
+FAB-000003,interlock polyester,Polyester interlock,Fabric,3,1900
+FAB-000004,interlock polyester premium quality,"Polyester interlock, premium quality",Fabric,4,36
+FAB-000005,jersey modal rayon,Rayon modal jersey,Fabric,5,1845
+FAB-000006,2 2 cotton elastane rib,Cotton elastane rib 2x2,Fabric,6,1980
+FAB-000007,100 cotton jersey percent single,Cotton single jersey 100%,Fabric,7,44
+FAB-000008,100 cotton percent poplin shirting,Cotton poplin shirting 100%,Fabric,8,33
+FAB-000009,nylon ripstop,Nylon ripstop,Fabric,9,1878
+FAB-000010,linen plain weave,Linen plain weave,Fabric,10,1956
+FAB-000011,back brushed fleece,Brushed back fleece,Fabric,11,1935
+FAB-000012,microfleece polyester,Polyester microfleece,Fabric,12,1792
+FAB-000013,chine crepe de viscose,Viscose crepe de chine,Fabric,13,1938
+FAB-000014,bamboo cotton jersey organic,Bamboo organic cotton jersey,Fabric,14,1895
+FAB-000015,canvas cotton duck,Cotton canvas duck,Fabric,15,1830
+FAB-000016,cotton poplin shirting,Cotton poplin shirting,Fabric,16,1916
+FAB-000017,cotton knit pique,Cotton pique knit,Fabric,17,1850
+FAB-000018,active jersey poly spandex,Poly spandex active jersey,Fabric,18,1835
+FAB-000019,cotton interlock modal,Modal cotton interlock,Fabric,19,1907
+FAB-000020,chine crepe de premium quality viscose,"Viscose crepe de chine, premium quality",Fabric,20,33
+FAB-000021,chino cotton twill,Cotton twill chino,Fabric,21,1915
+FAB-000022,chiffon polyester,Polyester chiffon,Fabric,22,1871
+FAB-000023,fleece french pure terry,Pure French terry fleece,Fabric,23,51
+FAB-000024,bottomweight denim,Denim bottomweight,Fabric,24,1852
+FAB-000025,100 bottomweight denim percent,Denim bottomweight 100%,Fabric,25,42
+FAB-000026,interlock poly,Poly interlock,Fabric,26,34
+FAB-000027,100 interlock percent polyester,Polyester interlock 100%,Fabric,27,30
+FAB-000028,fleece french terry,French terry fleece,Fabric,28,1939
+FAB-000029,100 jersey modal percent rayon,Rayon modal jersey 100%,Fabric,29,26
+FAB-000030,100 fleece french percent terry,French terry fleece 100%,Fabric,30,46
+FAB-000031,100 chine crepe de percent viscose,Viscose crepe de chine 100%,Fabric,31,35
+FAB-000032,chine crepe de pure viscose,Pure Viscose crepe de chine,Fabric,32,30
+FAB-000033,100 cotton elastane percent rib,Cotton elastane rib 100%,Fabric,33,68
+FAB-000034,bamboo cotton jersey organic premium quality,"Bamboo organic cotton jersey, premium quality",Fabric,34,30
+FAB-000035,100 active jersey percent poly spandex,Poly spandex active jersey 100%,Fabric,35,31
+FAB-000036,chino cotton premium quality twill,"Cotton twill chino, premium quality",Fabric,36,33
+FAB-000037,100 nylon percent ripstop,Nylon ripstop 100%,Fabric,37,41
+FAB-000038,nylon pure ripstop,Pure Nylon ripstop,Fabric,38,32
+FAB-000039,fleece french premium quality terry,"French terry fleece, premium quality",Fabric,39,29
+FAB-000040,100 chiffon percent polyester,Polyester chiffon 100%,Fabric,40,30
+FAB-000041,microfleece polyester premium quality,"Polyester microfleece, premium quality",Fabric,41,37
+FAB-000042,bottomweight denim premium quality,"Denim bottomweight, premium quality",Fabric,42,28
+FAB-000043,microfleece poly,Poly microfleece,Fabric,43,33
+FAB-000044,bottomweight denim pure,Pure Denim bottomweight,Fabric,44,32
+FAB-000045,cotton interlock modal premium quality,"Modal cotton interlock, premium quality",Fabric,45,39
+FAB-000046,jersey modal premium quality rayon,"Rayon modal jersey, premium quality",Fabric,46,36
+FAB-000047,linen plain pure weave,Pure Linen plain weave,Fabric,47,31
+FAB-000048,nylon premium quality ripstop,"Nylon ripstop, premium quality",Fabric,48,34
+FAB-000049,100 chino cotton percent twill,Cotton twill chino 100%,Fabric,49,33
+FAB-000050,active jersey poly pure spandex,Pure Poly spandex active jersey,Fabric,50,30
+FAB-000051,cotton jersey pure single,Pure Cotton single jersey,Fabric,51,36
+FAB-000052,chiffon poly,Poly chiffon,Fabric,52,37
+FAB-000053,linen plain premium quality weave,"Linen plain weave, premium quality",Fabric,53,32
+FAB-000054,chino ctn twill,Ctn twill chino,Fabric,54,20
+FAB-000055,canvas ctn duck,Ctn canvas duck,Fabric,55,41
+FAB-000056,100 cotton interlock modal percent,Modal cotton interlock 100%,Fabric,56,26
+FAB-000057,canvas cotton duck premium quality,"Cotton canvas duck, premium quality",Fabric,57,25
+FAB-000058,100 microfleece percent polyester,Polyester microfleece 100%,Fabric,58,29
+FAB-000059,chiffon polyester premium quality,"Polyester chiffon, premium quality",Fabric,59,33
+FAB-000060,canvas cotton duck pure,Pure Cotton canvas duck,Fabric,60,40
+FAB-000061,chiffon polyester pure,Pure Polyester chiffon,Fabric,61,40
+FAB-000062,100 canvas cotton duck percent,Cotton canvas duck 100%,Fabric,62,25
+FAB-000063,cotton elastane pure rib,Pure Cotton elastane rib,Fabric,63,73
+FAB-000064,interlock polyester pure,Pure Polyester interlock,Fabric,64,33
+FAB-000065,100 cotton knit percent pique,Cotton pique knit 100%,Fabric,65,44
+FAB-000066,jersey modal pure rayon,Pure Rayon modal jersey,Fabric,66,41
+FAB-000067,bamboo cotton jersey organic pure,Pure Bamboo organic cotton jersey,Fabric,67,39
+FAB-000068,active jersey poly premium quality spandex,"Poly spandex active jersey, premium quality",Fabric,68,30
+FAB-000069,cotton poplin premium quality shirting,"Cotton poplin shirting, premium quality",Fabric,69,35
+FAB-000070,100 back brushed fleece percent,Brushed back fleece 100%,Fabric,70,30
+FAB-000071,ctn knit pique,Ctn pique knit,Fabric,71,24
+FAB-000072,back brushed fleece premium quality,"Brushed back fleece, premium quality",Fabric,72,35
+FAB-000073,100 linen percent plain weave,Linen plain weave 100%,Fabric,73,43
+FAB-000074,microfleece polyester pure,Pure Polyester microfleece,Fabric,74,34
+FAB-000075,cotton knit pique pure,Pure Cotton pique knit,Fabric,75,34
+FAB-000076,cotton interlock modal pure,Pure Modal cotton interlock,Fabric,76,32
+FAB-000077,ctn elastane rib,Ctn elastane rib,Fabric,77,33
+FAB-000078,cotton elastane premium quality rib,"Cotton elastane rib, premium quality",Fabric,78,61
+FAB-000079,cotton knit pique premium quality,"Cotton pique knit, premium quality",Fabric,79,35
+FAB-000080,cotton jersey premium quality single,"Cotton single jersey, premium quality",Fabric,80,41
+FAB-000081,back brushed fleece pure,Pure Brushed back fleece,Fabric,81,33
+FAB-000082,cotton poplin pure shirting,Pure Cotton poplin shirting,Fabric,82,34
+FAB-000083,100 bamboo cotton jersey organic percent,Bamboo organic cotton jersey 100%,Fabric,83,40
+FAB-000084,chino cotton pure twill,Pure Cotton twill chino,Fabric,84,29

@@ -1,0 +1,32 @@
+new_master_code,norm_material_name,Material name,Category,cluster_id,cluster_record_count
+PKG-000001,garment polybag,Garment polybag,Packaging,1,1194
+PKG-000002,hanger plastic shirt,Plastic shirt hanger,Packaging,2,1204
+PKG-000003,polybag recycled,Recycled polybag,Packaging,3,1240
+PKG-000004,carton corrugated master,Corrugated master carton,Packaging,4,1165
+PKG-000005,acid free paper tissue,Acid free tissue paper,Packaging,5,1168
+PKG-000006,desiccant gel silica,Silica gel desiccant,Packaging,6,1122
+PKG-000007,adhesive barcode label shipping,Adhesive shipping barcode label,Packaging,7,1262
+PKG-000008,100 acid free paper percent tissue,Acid free tissue paper 100%,Packaging,8,17
+PKG-000009,carton inner packing,Inner packing carton,Packaging,9,1167
+PKG-000010,100 garment percent polybag,Garment polybag 100%,Packaging,10,23
+PKG-000011,100 desiccant gel percent silica,Silica gel desiccant 100%,Packaging,11,24
+PKG-000012,garment polybag pure,Pure Garment polybag,Packaging,12,23
+PKG-000013,desiccant gel premium quality silica,"Silica gel desiccant, premium quality",Packaging,13,25
+PKG-000014,polybag premium quality recycled,"Recycled polybag, premium quality",Packaging,14,19
+PKG-000015,adhesive barcode label premium quality shipping,"Adhesive shipping barcode label, premium quality",Packaging,15,25
+PKG-000016,acid free paper pure tissue,Pure Acid free tissue paper,Packaging,16,23
+PKG-000017,100 carton inner packing percent,Inner packing carton 100%,Packaging,17,24
+PKG-000018,acid free paper premium quality tissue,"Acid free tissue paper, premium quality",Packaging,18,21
+PKG-000019,100 percent polybag recycled,Recycled polybag 100%,Packaging,19,24
+PKG-000020,carton inner packing pure,Pure Inner packing carton,Packaging,20,8
+PKG-000021,carton corrugated master pure,Pure Corrugated master carton,Packaging,21,22
+PKG-000022,100 adhesive barcode label percent shipping,Adhesive shipping barcode label 100%,Packaging,22,24
+PKG-000023,desiccant gel pure silica,Pure Silica gel desiccant,Packaging,23,22
+PKG-000024,hanger plastic pure shirt,Pure Plastic shirt hanger,Packaging,24,19
+PKG-000025,hanger plastic premium quality shirt,"Plastic shirt hanger, premium quality",Packaging,25,16
+PKG-000026,polybag pure recycled,Pure Recycled polybag,Packaging,26,22
+PKG-000027,100 hanger percent plastic shirt,Plastic shirt hanger 100%,Packaging,27,21
+PKG-000028,carton inner packing premium quality,"Inner packing carton, premium quality",Packaging,28,18
+PKG-000029,garment polybag premium quality,"Garment polybag, premium quality",Packaging,29,19
+PKG-000030,100 carton corrugated master percent,Corrugated master carton 100%,Packaging,30,18
+PKG-000031,carton corrugated master premium quality,"Corrugated master carton, premium quality",Packaging,31,22

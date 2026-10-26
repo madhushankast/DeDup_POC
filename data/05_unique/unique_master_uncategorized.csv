@@ -1,0 +1,87 @@
+new_master_code,norm_material_name,Material name,Category,cluster_id,cluster_record_count
+GEN-000001,garment polybag,Garment polybag,Uncategorized,1,70
+GEN-000002,cotton jersey single,Cotton single jersey,Uncategorized,2,64
+GEN-000003,chiffon polyester,Polyester chiffon,Uncategorized,3,69
+GEN-000004,fleece french terry,French terry fleece,Uncategorized,4,61
+GEN-000005,adhesive barcode label shipping,Adhesive shipping barcode label,Uncategorized,5,64
+GEN-000006,active jersey poly spandex,Poly spandex active jersey,Uncategorized,6,72
+GEN-000007,carton corrugated master,Corrugated master carton,Uncategorized,7,57
+GEN-000008,interlock polyester,Polyester interlock,Uncategorized,8,76
+GEN-000009,nylon ripstop,Nylon ripstop,Uncategorized,9,76
+GEN-000010,bottomweight denim,Denim bottomweight,Uncategorized,10,61
+GEN-000011,desiccant gel silica,Silica gel desiccant,Uncategorized,11,71
+GEN-000012,bamboo cotton jersey organic,Bamboo organic cotton jersey,Uncategorized,12,63
+GEN-000013,polybag recycled,Recycled polybag,Uncategorized,13,54
+GEN-000014,chine crepe de viscose,Viscose crepe de chine,Uncategorized,14,67
+GEN-000015,cotton interlock modal,Modal cotton interlock,Uncategorized,15,74
+GEN-000016,cotton elastane rib,Cotton elastane rib,Uncategorized,16,63
+GEN-000017,cotton poplin shirting,Cotton poplin shirting,Uncategorized,17,68
+GEN-000018,hanger plastic shirt,Plastic shirt hanger,Uncategorized,18,66
+GEN-000019,acid free paper tissue,Acid free tissue paper,Uncategorized,19,70
+GEN-000020,jersey modal rayon,Rayon modal jersey,Uncategorized,20,78
+GEN-000021,cotton knit pique,Cotton pique knit,Uncategorized,21,67
+GEN-000022,back brushed fleece,Brushed back fleece,Uncategorized,22,66
+GEN-000023,2 2 cotton elastane rib,Cotton elastane rib 2x2,Uncategorized,23,81
+GEN-000024,canvas cotton duck,Cotton canvas duck,Uncategorized,24,77
+GEN-000025,carton inner packing premium quality,"Inner packing carton, premium quality",Uncategorized,25,2
+GEN-000026,microfleece polyester,Polyester microfleece,Uncategorized,26,73
+GEN-000027,linen plain weave,Linen plain weave,Uncategorized,27,68
+GEN-000028,polybag premium quality recycled,"Recycled polybag, premium quality",Uncategorized,28,2
+GEN-000029,chiffon polyester premium quality,"Polyester chiffon, premium quality",Uncategorized,29,5
+GEN-000030,chino cotton twill,Cotton twill chino,Uncategorized,30,58
+GEN-000031,microfleece polyester premium quality,"Polyester microfleece, premium quality",Uncategorized,31,1
+GEN-000032,jersey modal pure rayon,Pure Rayon modal jersey,Uncategorized,32,1
+GEN-000033,bottomweight denim premium quality,"Denim bottomweight, premium quality",Uncategorized,33,2
+GEN-000034,hanger plastic premium quality shirt,"Plastic shirt hanger, premium quality",Uncategorized,34,2
+GEN-000035,cotton elastane premium quality rib,"Cotton elastane rib, premium quality",Uncategorized,35,4
+GEN-000036,desiccant gel pure silica,Pure Silica gel desiccant,Uncategorized,36,3
+GEN-000037,bamboo cotton jersey organic pure,Pure Bamboo organic cotton jersey,Uncategorized,37,1
+GEN-000038,carton inner packing,Inner packing carton,Uncategorized,38,65
+GEN-000039,chino cotton premium quality twill,"Cotton twill chino, premium quality",Uncategorized,39,2
+GEN-000040,100 acid free paper percent tissue,Acid free tissue paper 100%,Uncategorized,40,4
+GEN-000041,cotton interlock modal premium quality,"Modal cotton interlock, premium quality",Uncategorized,41,1
+GEN-000042,100 cotton jersey percent single,Cotton single jersey 100%,Uncategorized,42,1
+GEN-000043,bamboo cotton jersey organic premium quality,"Bamboo organic cotton jersey, premium quality",Uncategorized,43,4
+GEN-000044,cotton poplin premium quality shirting,"Cotton poplin shirting, premium quality",Uncategorized,44,2
+GEN-000045,100 bamboo cotton jersey organic percent,Bamboo organic cotton jersey 100%,Uncategorized,45,4
+GEN-000046,2 2 cotton elastane pure rib,Pure Cotton elastane rib 2x2,Uncategorized,46,3
+GEN-000047,garment polybag pure,Pure Garment polybag,Uncategorized,47,2
+GEN-000048,100 desiccant gel percent silica,Silica gel desiccant 100%,Uncategorized,48,1
+GEN-000049,100 active jersey percent poly spandex,Poly spandex active jersey 100%,Uncategorized,49,3
+GEN-000050,carton inner packing pure,Pure Inner packing carton,Uncategorized,50,2
+GEN-000051,ctn knit pique,Ctn pique knit,Uncategorized,51,1
+GEN-000052,100 chiffon percent polyester,Polyester chiffon 100%,Uncategorized,52,2
+GEN-000053,100 percent polybag recycled,Recycled polybag 100%,Uncategorized,53,1
+GEN-000054,carton corrugated master premium quality,"Corrugated master carton, premium quality",Uncategorized,54,1
+GEN-000055,canvas ctn duck,Ctn canvas duck,Uncategorized,55,1
+GEN-000056,desiccant gel premium quality silica,"Silica gel desiccant, premium quality",Uncategorized,56,1
+GEN-000057,100 chine crepe de percent viscose,Viscose crepe de chine 100%,Uncategorized,57,1
+GEN-000058,100 nylon percent ripstop,Nylon ripstop 100%,Uncategorized,58,1
+GEN-000059,jersey modal premium quality rayon,"Rayon modal jersey, premium quality",Uncategorized,59,2
+GEN-000060,cotton jersey pure single,Pure Cotton single jersey,Uncategorized,60,2
+GEN-000061,interlock polyester premium quality,"Polyester interlock, premium quality",Uncategorized,61,4
+GEN-000062,active jersey poly premium quality spandex,"Poly spandex active jersey, premium quality",Uncategorized,62,1
+GEN-000063,adhesive barcode label premium quality shipping,"Adhesive shipping barcode label, premium quality",Uncategorized,63,1
+GEN-000064,canvas cotton duck premium quality,"Cotton canvas duck, premium quality",Uncategorized,64,3
+GEN-000065,chino cotton pure twill,Pure Cotton twill chino,Uncategorized,65,1
+GEN-000066,polybag pure recycled,Pure Recycled polybag,Uncategorized,66,1
+GEN-000067,100 jersey modal percent rayon,Rayon modal jersey 100%,Uncategorized,67,1
+GEN-000068,garment polybag premium quality,"Garment polybag, premium quality",Uncategorized,68,1
+GEN-000069,chine crepe de pure viscose,Pure Viscose crepe de chine,Uncategorized,69,2
+GEN-000070,ctn elastane rib,Ctn elastane rib,Uncategorized,70,1
+GEN-000071,back brushed fleece pure,Pure Brushed back fleece,Uncategorized,71,2
+GEN-000072,chine crepe de premium quality viscose,"Viscose crepe de chine, premium quality",Uncategorized,72,2
+GEN-000073,100 carton corrugated master percent,Corrugated master carton 100%,Uncategorized,73,1
+GEN-000074,linen plain premium quality weave,"Linen plain weave, premium quality",Uncategorized,74,1
+GEN-000075,100 garment percent polybag,Garment polybag 100%,Uncategorized,75,2
+GEN-000076,carton corrugated master pure,Pure Corrugated master carton,Uncategorized,76,1
+GEN-000077,microfleece poly,Poly microfleece,Uncategorized,77,1
+GEN-000078,100 hanger percent plastic shirt,Plastic shirt hanger 100%,Uncategorized,78,1
+GEN-000079,microfleece polyester pure,Pure Polyester microfleece,Uncategorized,79,1
+GEN-000080,100 carton inner packing percent,Inner packing carton 100%,Uncategorized,80,1
+GEN-000081,100 bottomweight denim percent,Denim bottomweight 100%,Uncategorized,81,2
+GEN-000082,fleece french premium quality terry,"French terry fleece, premium quality",Uncategorized,82,1
+GEN-000083,fleece french pure terry,Pure French terry fleece,Uncategorized,83,2
+GEN-000084,nylon pure ripstop,Pure Nylon ripstop,Uncategorized,84,1
+GEN-000085,100 canvas cotton duck percent,Cotton canvas duck 100%,Uncategorized,85,1
+GEN-000086,100 interlock percent polyester,Polyester interlock 100%,Uncategorized,86,2

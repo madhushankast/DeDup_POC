@@ -1,0 +1,2003 @@
+Material/item code,Material name,norm_material_name,cluster_id,new_master_code,similarity_score,cluster_record_count,is_duplicate
+PKG-000001,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+FAB-000001,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099000,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099001,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099002,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099003,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099004,ADHESIVE SHIPPING BARCODE LABEL,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099005,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099006,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099007,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099008,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099009,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099010,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099011,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099012,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099013,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099014,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099015,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099016,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099017,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099018,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099019,Ctn poplin shirting,ctn poplin shirting,17,GEN-000017,0.9268,68,True
+RAW-099020,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099021,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099022,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099023,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099024,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099025,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099026,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099027,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099028,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099029,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099030,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099031,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099032,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099033,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099034,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099035,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099036,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099037,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099038,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099039,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099040,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099041,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099042,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099043,silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099044,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099045,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099046,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099047,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099048,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099049,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099050,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099051,COTTON PIQUE KNIT,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099052,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099053,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099054,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099055,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099056,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099057,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099058,"Inner packing carton, premium quality",carton inner packing premium quality,25,GEN-000025,1.0,2,True
+RAW-099059,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099060,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099061,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099062,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099063,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099064,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099065,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099066,Corrugated-master-carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099067,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099068,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099069,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099070,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099071,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099072,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099073,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099074,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099075,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099076,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099077,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099078,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099079,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099080,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099081,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099082,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099083,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099084,cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099085,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099086,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099087,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099088,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099089,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099090,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099091,"Recycled polybag, premium quality",polybag premium quality recycled,28,GEN-000028,1.0,2,True
+RAW-099092,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099093,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099094,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099095,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099096,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099097,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099098,"Polyester chiffon, premium quality",chiffon polyester premium quality,29,GEN-000029,1.0,5,True
+RAW-099099,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099100,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099101,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099102,"Polyester microfleece, premium quality",microfleece polyester premium quality,31,GEN-000031,1.0,1,False
+RAW-099103,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099104,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099105,Pure Rayon modal jersey,jersey modal pure rayon,32,GEN-000032,1.0,1,False
+RAW-099106,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099107,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099108,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099109,"Denim bottomweight, premium quality",bottomweight denim premium quality,33,GEN-000033,1.0,2,True
+RAW-099110,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099111,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099112,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099113,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099114,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099115,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099116,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099117,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099118,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099119,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099120,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099121,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099122,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099123,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099124,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099125,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099126,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099127,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099128,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099129,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099130,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099131,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099132,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099133,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099134,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099135,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099136,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099137,COTTON ELASTANE RIB 2X2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099138,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099139,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099140,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099141,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099142,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099143,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099144,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099145,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099146,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099147,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099148,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099149,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099150,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099151,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099152,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099153,"Plastic shirt hanger, premium quality",hanger plastic premium quality shirt,34,GEN-000034,1.0,2,True
+RAW-099154,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099155,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099156,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099157,"Cotton elastane rib, premium quality",cotton elastane premium quality rib,35,GEN-000035,1.0,4,True
+RAW-099158,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099159,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099160,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099161,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099162,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099163,POLYESTER MICROFLEECE,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099164,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099165,Nylon-ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099166,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099167,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099168,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099169,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099170,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099171,denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099172,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099173,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099174,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099175,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099176,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099177,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099178,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099179,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099180,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099181,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099182,Pure Silica gel desiccant,desiccant gel pure silica,36,GEN-000036,1.0,3,True
+RAW-099183,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099184,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099185,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099186,Pure Bamboo organic cotton jersey,bamboo cotton jersey organic pure,37,GEN-000037,1.0,1,False
+RAW-099187,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099188,SILICA GEL DESICCANT,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099189,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099190,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099191,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099192,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099193,RAYON MODAL JERSEY,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099194,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099195,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099196,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099197,RECYCLED POLYBAG,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099198,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099199,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099200,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099201,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099202,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099203,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099204,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099205,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099206,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099207,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099208,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099209,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099210,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099211,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099212,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099213,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099214,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099215,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099216,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099217,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099218,polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099219,plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099220,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099221,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099222,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099223,COTTON SINGLE JERSEY,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099224,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099225,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099226,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099227,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099228,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099229,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099230,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099231,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099232,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099233,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099234,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099235,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099236,jersey cotton organic Bamboo,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099237,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099238,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099239,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099240,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099241,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099242,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099243,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099244,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099245,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099246,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099247,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099248,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099249,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099250,RAYON MODAL JERSEY,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099251,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099252,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099253,French-terry-fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099254,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099255,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099256,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099257,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099258,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099259,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099260,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099261,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099262,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099263,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099264,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099265,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099266,inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099267,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099268,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099269,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099270,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099271,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099272,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099273,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099274,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099275,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099276,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099277,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099278,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099279,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099280,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099281,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099282,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099283,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099284,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099285,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099286,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099287,cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099288,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099289,BAMBOO ORGANIC COTTON JERSEY,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099290,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099291,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099292,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099293,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099294,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099295,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099296,weave plain Linen,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099297,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099298,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099299,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099300,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099301,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099302,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099303,"Cotton twill chino, premium quality",chino cotton premium quality twill,39,GEN-000039,1.0,2,True
+RAW-099304,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099305,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099306,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099307,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099308,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099309,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099310,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099311,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099312,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099313,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099314,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099315,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099316,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099317,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099318,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099319,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099320,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099321,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099322,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099323,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099324,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099325,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099326,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099327,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099328,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099329,FRENCH TERRY FLEECE,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099330,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099331,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099332,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099333,french terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099334,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099335,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099336,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099337,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099338,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099339,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099340,Polyester-microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099341,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099342,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099343,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099344,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099345,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099346,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099347,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099348,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099349,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099350,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099351,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099352,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099353,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099354,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099355,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099356,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099357,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099358,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099359,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099360,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099361,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099362,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099363,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099364,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099365,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099366,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099367,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099368,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099369,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099370,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099371,Acid free tissue paper 100%,100 acid free paper percent tissue,40,GEN-000040,1.0,4,True
+RAW-099372,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099373,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099374,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099375,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099376,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099377,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099378,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099379,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099380,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099381,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099382,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099383,"Modal cotton interlock, premium quality",cotton interlock modal premium quality,41,GEN-000041,1.0,1,False
+RAW-099384,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099385,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099386,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099387,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099388,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099389,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099390,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099391,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099392,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099393,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099394,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099395,adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099396,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099397,COTTON ELASTANE RIB 2X2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099398,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099399,Linen-plain-weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099400,CORRUGATED MASTER CARTON,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099401,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099402,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099403,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099404,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099405,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099406,RAYON MODAL JERSEY,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099407,Cotton-elastane-rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099408,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099409,Cotton single jersey 100%,100 cotton jersey percent single,42,GEN-000042,1.0,1,False
+RAW-099410,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099411,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099412,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099413,"Bamboo organic cotton jersey, premium quality",bamboo cotton jersey organic premium quality,43,GEN-000043,1.0,4,True
+RAW-099414,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099415,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099416,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099417,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099418,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099419,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099420,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099421,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099422,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099423,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099424,"Cotton poplin shirting, premium quality",cotton poplin premium quality shirting,44,GEN-000044,1.0,2,True
+RAW-099425,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099426,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099427,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099428,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099429,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099430,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099431,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099432,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099433,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099434,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099435,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099436,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099437,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099438,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099439,Bamboo organic cotton jersey 100%,100 bamboo cotton jersey organic percent,45,GEN-000045,1.0,4,True
+RAW-099440,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099441,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099442,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099443,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099444,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099445,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099446,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099447,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099448,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099449,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099450,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099451,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099452,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099453,Acid free tissue paper 100%,100 acid free paper percent tissue,40,GEN-000040,1.0,4,True
+RAW-099454,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099455,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099456,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099457,modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099458,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099459,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099460,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099461,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099462,viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099463,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099464,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099465,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099466,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099467,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099468,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099469,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099470,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099471,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099472,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099473,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099474,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099475,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099476,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099477,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099478,Pure Cotton elastane rib,cotton elastane pure rib,46,GEN-000046,0.9231,3,True
+RAW-099479,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099480,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099481,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099482,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099483,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099484,bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099485,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099486,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099487,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099488,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099489,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099490,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099491,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099492,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099493,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099494,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099495,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099496,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099497,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099498,polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099499,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099500,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099501,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099502,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099503,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099504,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099505,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099506,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099507,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099508,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099509,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099510,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099511,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099512,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099513,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099514,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099515,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099516,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099517,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099518,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099519,Nylon-ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099520,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099521,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099522,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099523,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099524,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099525,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099526,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099527,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099528,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099529,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099530,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099531,"Polyester chiffon, premium quality",chiffon polyester premium quality,29,GEN-000029,1.0,5,True
+RAW-099532,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099533,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099534,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099535,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099536,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099537,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099538,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099539,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099540,Pure Silica gel desiccant,desiccant gel pure silica,36,GEN-000036,1.0,3,True
+RAW-099541,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099542,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099543,Pure Garment polybag,garment polybag pure,47,GEN-000047,1.0,2,True
+RAW-099544,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099545,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099546,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099547,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099548,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099549,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099550,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099551,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099552,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099553,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099554,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099555,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099556,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099557,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099558,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099559,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099560,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099561,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099562,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099563,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099564,Cotton-single-jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099565,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099566,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099567,Linen-plain-weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099568,modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099569,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099570,cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099571,Silica gel desiccant 100%,100 desiccant gel percent silica,48,GEN-000048,1.0,1,False
+RAW-099572,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099573,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099574,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099575,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099576,fleece back Brushed,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099577,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099578,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099579,Poly spandex active jersey 100%,100 active jersey percent poly spandex,49,GEN-000049,1.0,3,True
+RAW-099580,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099581,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099582,inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099583,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099584,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099585,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099586,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099587,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099588,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099589,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099590,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099591,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099592,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099593,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099594,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099595,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099596,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099597,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099598,Cotton-single-jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099599,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099600,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099601,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099602,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099603,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099604,Pure Inner packing carton,carton inner packing pure,50,GEN-000050,1.0,2,True
+RAW-099605,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099606,polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099607,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099608,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099609,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099610,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099611,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099612,Ctn pique knit,ctn knit pique,51,GEN-000051,1.0,1,False
+RAW-099613,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099614,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099615,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099616,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099617,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099618,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099619,jersey single Cotton,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099620,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099621,Polyester chiffon 100%,100 chiffon percent polyester,52,GEN-000052,1.0,2,True
+RAW-099622,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099623,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099624,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099625,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099626,INNER PACKING CARTON,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099627,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099628,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099629,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099630,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099631,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099632,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099633,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099634,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099635,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099636,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099637,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099638,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099639,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099640,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099641,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099642,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099643,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099644,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099645,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099646,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099647,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099648,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099649,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099650,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099651,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099652,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099653,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099654,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099655,"Plastic shirt hanger, premium quality",hanger plastic premium quality shirt,34,GEN-000034,1.0,2,True
+RAW-099656,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099657,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099658,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099659,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099660,cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099661,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099662,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099663,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099664,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099665,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099666,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099667,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099668,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099669,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099670,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099671,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099672,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099673,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099674,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099675,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099676,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099677,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099678,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099679,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099680,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099681,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099682,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099683,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099684,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099685,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099686,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099687,Bamboo organic cotton jersey 100%,100 bamboo cotton jersey organic percent,45,GEN-000045,1.0,4,True
+RAW-099688,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099689,Pure Cotton elastane rib 2x2,2 2 cotton elastane pure rib,46,GEN-000046,1.0,3,True
+RAW-099690,Recycled polybag 100%,100 percent polybag recycled,53,GEN-000053,1.0,1,False
+RAW-099691,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099692,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099693,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099694,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099695,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099696,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099697,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099698,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099699,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099700,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099701,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099702,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099703,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099704,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099705,polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099706,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099707,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099708,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099709,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099710,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099711,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099712,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099713,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099714,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099715,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099716,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099717,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099718,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099719,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099720,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099721,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099722,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099723,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099724,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099725,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099726,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099727,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099728,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099729,COTTON CANVAS DUCK,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099730,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099731,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099732,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099733,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099734,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099735,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099736,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099737,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099738,Bamboo organic cotton jersey 100%,100 bamboo cotton jersey organic percent,45,GEN-000045,1.0,4,True
+RAW-099739,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099740,"Corrugated master carton, premium quality",carton corrugated master premium quality,54,GEN-000054,1.0,1,False
+RAW-099741,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099742,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099743,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099744,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099745,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099746,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099747,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099748,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099749,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099750,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099751,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099752,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099753,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099754,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099755,desiccant gel Silica,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099756,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099757,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099758,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099759,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099760,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099761,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099762,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099763,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099764,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099765,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099766,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099767,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099768,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099769,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099770,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099771,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099772,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099773,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099774,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099775,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099776,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099777,hanger shirt Plastic,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099778,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099779,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099780,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099781,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099782,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099783,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099784,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099785,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099786,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099787,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099788,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099789,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099790,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099791,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099792,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099793,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099794,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099795,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099796,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099797,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099798,Ctn canvas duck,canvas ctn duck,55,GEN-000055,1.0,1,False
+RAW-099799,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099800,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099801,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099802,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099803,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099804,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099805,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099806,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099807,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099808,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099809,"Silica gel desiccant, premium quality",desiccant gel premium quality silica,56,GEN-000056,1.0,1,False
+RAW-099810,"Bamboo organic cotton jersey, premium quality",bamboo cotton jersey organic premium quality,43,GEN-000043,1.0,4,True
+RAW-099811,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099812,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099813,Viscose crepe de chine 100%,100 chine crepe de percent viscose,57,GEN-000057,1.0,1,False
+RAW-099814,Nylon ripstop 100%,100 nylon percent ripstop,58,GEN-000058,1.0,1,False
+RAW-099815,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099816,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099817,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099818,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099819,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099820,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099821,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099822,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099823,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099824,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099825,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099826,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099827,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099828,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099829,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099830,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099831,cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099832,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099833,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099834,"Cotton poplin shirting, premium quality",cotton poplin premium quality shirting,44,GEN-000044,1.0,2,True
+RAW-099835,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099836,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099837,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099838,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099839,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099840,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099841,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099842,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099843,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099844,Inner-packing-carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099845,"Cotton twill chino, premium quality",chino cotton premium quality twill,39,GEN-000039,1.0,2,True
+RAW-099846,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099847,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099848,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099849,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099850,BAMBOO ORGANIC COTTON JERSEY,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099851,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099852,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099853,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099854,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099855,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099856,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099857,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099858,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099859,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099860,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099861,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099862,COTTON CANVAS DUCK,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099863,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099864,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099865,"Rayon modal jersey, premium quality",jersey modal premium quality rayon,59,GEN-000059,1.0,2,True
+RAW-099866,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099867,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099868,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099869,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099870,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099871,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099872,"Inner packing carton, premium quality",carton inner packing premium quality,25,GEN-000025,1.0,2,True
+RAW-099873,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099874,COTTON ELASTANE RIB 2X2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099875,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099876,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099877,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099878,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099879,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099880,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099881,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099882,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099883,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099884,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099885,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099886,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099887,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099888,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099889,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099890,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099891,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099892,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099893,Pure Garment polybag,garment polybag pure,47,GEN-000047,1.0,2,True
+RAW-099894,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099895,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099896,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099897,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099898,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099899,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099900,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099901,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099902,chino twill Cotton,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099903,"Polyester chiffon, premium quality",chiffon polyester premium quality,29,GEN-000029,1.0,5,True
+RAW-099904,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099905,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099906,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099907,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099908,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099909,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099910,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099911,Pure Cotton single jersey,cotton jersey pure single,60,GEN-000060,1.0,2,True
+RAW-099912,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099913,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099914,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099915,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099916,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099917,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099918,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099919,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099920,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099921,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099922,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099923,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099924,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099925,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099926,paper tissue free Acid,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099927,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099928,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-099929,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099930,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099931,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099932,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-099933,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099934,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099935,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099936,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099937,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099938,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099939,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099940,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099941,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099942,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-099943,Pure Adhesive shipping barcode label,adhesive barcode label pure shipping,5,GEN-000005,0.9254,64,True
+RAW-099944,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099945,Acid free tissue paper 100%,100 acid free paper percent tissue,40,GEN-000040,1.0,4,True
+RAW-099946,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-099947,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099948,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099949,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-099950,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099951,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099952,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099953,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099954,MODAL COTTON INTERLOCK,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-099955,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099956,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-099957,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099958,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099959,Polyester chiffon 100%,100 chiffon percent polyester,52,GEN-000052,1.0,2,True
+RAW-099960,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099961,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099962,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099963,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-099964,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-099965,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099966,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-099967,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-099968,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-099969,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099970,Pure Silica gel desiccant,desiccant gel pure silica,36,GEN-000036,1.0,3,True
+RAW-099971,bottomweight Denim,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099972,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099973,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099974,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-099975,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099976,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-099977,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-099978,"Bamboo organic cotton jersey, premium quality",bamboo cotton jersey organic premium quality,43,GEN-000043,1.0,4,True
+RAW-099979,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-099980,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099981,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099982,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-099983,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099984,"Polyester interlock, premium quality",interlock polyester premium quality,61,GEN-000061,1.0,4,True
+RAW-099985,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099986,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-099987,"Poly spandex active jersey, premium quality",active jersey poly premium quality spandex,62,GEN-000062,1.0,1,False
+RAW-099988,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-099989,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-099990,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099991,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-099992,polybag Recycled,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-099993,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-099994,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-099995,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-099996,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-099997,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-099998,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-099999,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100000,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100001,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100002,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100003,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100004,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100005,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100006,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100007,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100008,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100009,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100010,"Polyester chiffon, premium quality",chiffon polyester premium quality,29,GEN-000029,1.0,5,True
+RAW-100011,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100012,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100013,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100014,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100015,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100016,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100017,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100018,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100019,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100020,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100021,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100022,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100023,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100024,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100025,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100026,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100027,"Adhesive shipping barcode label, premium quality",adhesive barcode label premium quality shipping,63,GEN-000063,1.0,1,False
+RAW-100028,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100029,POLYESTER CHIFFON,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100030,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100031,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100032,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100033,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100034,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100035,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100036,"Cotton canvas duck, premium quality",canvas cotton duck premium quality,64,GEN-000064,1.0,3,True
+RAW-100037,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100038,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100039,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100040,MODAL COTTON INTERLOCK,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100041,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100042,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100043,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100044,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100045,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100046,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100047,Cotton-single-jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100048,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100049,Inner-packing-carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100050,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100051,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100052,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100053,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100054,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100055,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100056,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100057,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100058,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100059,jersey modal Rayon,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100060,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100061,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100062,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100063,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100064,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100065,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100066,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100067,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100068,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100069,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100070,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100071,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100072,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100073,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100074,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100075,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100076,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100077,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100078,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100079,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100080,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100081,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100082,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100083,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100084,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100085,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100086,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100087,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100088,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100089,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100090,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100091,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100092,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100093,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100094,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100095,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100096,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100097,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100098,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100099,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100100,Inner-packing-carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100101,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100102,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100103,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100104,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100105,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100106,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100107,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100108,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100109,microfleece Polyester,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100110,Pure Cotton twill chino,chino cotton pure twill,65,GEN-000065,1.0,1,False
+RAW-100111,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100112,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100113,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100114,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100115,Pure Recycled polybag,polybag pure recycled,66,GEN-000066,1.0,1,False
+RAW-100116,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100117,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100118,COTTON ELASTANE RIB 2X2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100119,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100120,inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100121,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100122,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100123,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100124,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100125,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100126,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100127,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100128,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100129,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100130,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100131,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100132,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100133,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100134,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100135,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100136,COTTON POPLIN SHIRTING,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100137,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100138,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100139,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100140,VISCOSE CREPE DE CHINE,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100141,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100142,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100143,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100144,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100145,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100146,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100147,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100148,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100149,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100150,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100151,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100152,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100153,Rayon modal jersey 100%,100 jersey modal percent rayon,67,GEN-000067,1.0,1,False
+RAW-100154,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100155,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100156,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100157,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100158,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100159,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100160,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100161,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100162,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100163,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100164,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100165,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100166,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100167,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100168,cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100169,"Cotton elastane rib, premium quality",cotton elastane premium quality rib,35,GEN-000035,1.0,4,True
+RAW-100170,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100171,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100172,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100173,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100174,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100175,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100176,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100177,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100178,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100179,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100180,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100181,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100182,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100183,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100184,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100185,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100186,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100187,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100188,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100189,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100190,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100191,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100192,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100193,inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100194,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100195,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100196,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100197,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100198,"Garment polybag, premium quality",garment polybag premium quality,68,GEN-000068,1.0,1,False
+RAW-100199,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100200,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100201,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100202,silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100203,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100204,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100205,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100206,COTTON ELASTANE RIB 2X2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100207,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100208,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100209,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100210,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100211,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100212,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100213,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100214,COTTON POPLIN SHIRTING,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100215,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100216,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100217,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100218,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100219,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100220,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100221,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100222,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100223,chiffon Polyester,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100224,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100225,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100226,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100227,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100228,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100229,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100230,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100231,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100232,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100233,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100234,NYLON RIPSTOP,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100235,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100236,rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100237,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100238,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100239,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100240,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100241,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100242,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100243,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100244,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100245,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100246,Pure Viscose crepe de chine,chine crepe de pure viscose,69,GEN-000069,1.0,2,True
+RAW-100247,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100248,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100249,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100250,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100251,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100252,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100253,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100254,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100255,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100256,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100257,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100258,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100259,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100260,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100261,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100262,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100263,Polyester-interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100264,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100265,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100266,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100267,cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100268,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100269,Ctn elastane rib 2x2,2 2 ctn elastane rib,23,GEN-000023,0.9302,81,True
+RAW-100270,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100271,Ctn elastane rib,ctn elastane rib,70,GEN-000070,1.0,1,False
+RAW-100272,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100273,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100274,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100275,polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100276,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100277,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100278,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100279,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100280,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100281,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100282,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100283,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100284,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100285,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100286,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100287,Pure Brushed back fleece,back brushed fleece pure,71,GEN-000071,1.0,2,True
+RAW-100288,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100289,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100290,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100291,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100292,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100293,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100294,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100295,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100296,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100297,POLYESTER INTERLOCK,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100298,rib elastane Cotton,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100299,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100300,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100301,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100302,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100303,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100304,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100305,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100306,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100307,"Viscose crepe de chine, premium quality",chine crepe de premium quality viscose,72,GEN-000072,1.0,2,True
+RAW-100308,silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100309,Corrugated master carton 100%,100 carton corrugated master percent,73,GEN-000073,1.0,1,False
+RAW-100310,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100311,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100312,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100313,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100314,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100315,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100316,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100317,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100318,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100319,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100320,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100321,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100322,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100323,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100324,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100325,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100326,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100327,chine de crepe Viscose,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100328,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100329,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100330,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100331,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100332,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100333,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100334,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100335,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100336,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100337,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100338,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100339,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100340,Pure Cotton single jersey,cotton jersey pure single,60,GEN-000060,1.0,2,True
+RAW-100341,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100342,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100343,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100344,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100345,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100346,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100347,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100348,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100349,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100350,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100351,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100352,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100353,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100354,POLYESTER INTERLOCK,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100355,COTTON POPLIN SHIRTING,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100356,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100357,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100358,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100359,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100360,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100361,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100362,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100363,linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100364,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100365,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100366,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100367,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100368,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100369,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100370,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100371,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100372,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100373,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100374,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100375,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100376,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100377,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100378,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100379,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100380,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100381,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100382,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100383,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100384,Pure Brushed back fleece,back brushed fleece pure,71,GEN-000071,1.0,2,True
+RAW-100385,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100386,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100387,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100388,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100389,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100390,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100391,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100392,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100393,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100394,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100395,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100396,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100397,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100398,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100399,cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100400,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100401,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100402,adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100403,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100404,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100405,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100406,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100407,"Linen plain weave, premium quality",linen plain premium quality weave,74,GEN-000074,1.0,1,False
+RAW-100408,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100409,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100410,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100411,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100412,Pure Adhesive shipping barcode label,adhesive barcode label pure shipping,5,GEN-000005,0.9254,64,True
+RAW-100413,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100414,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100415,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100416,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100417,Garment polybag 100%,100 garment percent polybag,75,GEN-000075,1.0,2,True
+RAW-100418,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100419,Acid free tissue paper 100%,100 acid free paper percent tissue,40,GEN-000040,1.0,4,True
+RAW-100420,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100421,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100422,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100423,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100424,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100425,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100426,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100427,"Recycled polybag, premium quality",polybag premium quality recycled,28,GEN-000028,1.0,2,True
+RAW-100428,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100429,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100430,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100431,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100432,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100433,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100434,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100435,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100436,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100437,fleece terry French,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100438,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100439,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100440,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100441,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100442,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100443,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100444,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100445,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100446,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100447,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100448,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100449,Pure Corrugated master carton,carton corrugated master pure,76,GEN-000076,1.0,1,False
+RAW-100450,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100451,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100452,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100453,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100454,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100455,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100456,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100457,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100458,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100459,Pure Viscose crepe de chine,chine crepe de pure viscose,69,GEN-000069,1.0,2,True
+RAW-100460,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100461,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100462,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100463,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100464,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100465,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100466,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100467,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100468,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100469,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100470,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100471,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100472,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100473,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100474,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100475,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100476,desiccant gel Silica,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100477,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100478,"Polyester chiffon, premium quality",chiffon polyester premium quality,29,GEN-000029,1.0,5,True
+RAW-100479,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100480,Pure Cotton elastane rib 2x2,2 2 cotton elastane pure rib,46,GEN-000046,1.0,3,True
+RAW-100481,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100482,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100483,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100484,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100485,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100486,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100487,interlock Polyester,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100488,"Polyester interlock, premium quality",interlock polyester premium quality,61,GEN-000061,1.0,4,True
+RAW-100489,Silica-gel-desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100490,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100491,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100492,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100493,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100494,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100495,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100496,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100497,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100498,Poly microfleece,microfleece poly,77,GEN-000077,1.0,1,False
+RAW-100499,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100500,polybag Recycled,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100501,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100502,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100503,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100504,Plastic-shirt-hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100505,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100506,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100507,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100508,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100509,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100510,"Cotton canvas duck, premium quality",canvas cotton duck premium quality,64,GEN-000064,1.0,3,True
+RAW-100511,"Bamboo organic cotton jersey, premium quality",bamboo cotton jersey organic premium quality,43,GEN-000043,1.0,4,True
+RAW-100512,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100513,Pure Inner packing carton,carton inner packing pure,50,GEN-000050,1.0,2,True
+RAW-100514,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100515,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100516,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100517,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100518,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100519,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100520,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100521,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100522,inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100523,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100524,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100525,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100526,polybag Garment,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100527,Plastic shirt hanger 100%,100 hanger percent plastic shirt,78,GEN-000078,1.0,1,False
+RAW-100528,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100529,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100530,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100531,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100532,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100533,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100534,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100535,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100536,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100537,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100538,Pure Polyester microfleece,microfleece polyester pure,79,GEN-000079,1.0,1,False
+RAW-100539,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100540,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100541,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100542,Inner packing carton 100%,100 carton inner packing percent,80,GEN-000080,1.0,1,False
+RAW-100543,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100544,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100545,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100546,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100547,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100548,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100549,Denim bottomweight 100%,100 bottomweight denim percent,81,GEN-000081,1.0,2,True
+RAW-100550,cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100551,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100552,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100553,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100554,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100555,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100556,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100557,Viscose-crepe-de-chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100558,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100559,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100560,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100561,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100562,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100563,cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100564,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100565,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100566,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100567,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100568,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100569,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100570,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100571,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100572,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100573,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100574,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100575,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100576,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100577,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100578,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100579,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100580,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100581,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100582,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100583,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100584,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100585,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100586,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100587,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100588,Bamboo organic cotton jersey 100%,100 bamboo cotton jersey organic percent,45,GEN-000045,1.0,4,True
+RAW-100589,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100590,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100591,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100592,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100593,Viscose-crepe-de-chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100594,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100595,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100596,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100597,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100598,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100599,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100600,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100601,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100602,"French terry fleece, premium quality",fleece french premium quality terry,82,GEN-000082,1.0,1,False
+RAW-100603,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100604,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100605,Poly spandex active jersey 100%,100 active jersey percent poly spandex,49,GEN-000049,1.0,3,True
+RAW-100606,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100607,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100608,interlock Polyester,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100609,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100610,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100611,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100612,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100613,Rayon-modal-jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100614,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100615,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100616,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100617,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100618,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100619,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100620,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100621,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100622,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100623,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100624,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100625,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100626,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100627,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100628,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100629,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100630,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100631,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100632,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100633,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100634,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100635,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100636,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100637,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100638,french terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100639,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100640,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100641,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100642,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100643,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100644,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100645,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100646,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100647,MODAL COTTON INTERLOCK,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100648,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100649,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100650,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100651,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100652,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100653,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100654,"Cotton elastane rib 2x2, premium quality",2 2 cotton elastane premium quality rib,35,GEN-000035,0.9459,4,True
+RAW-100655,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100656,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100657,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100658,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100659,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100660,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100661,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100662,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100663,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100664,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100665,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100666,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100667,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100668,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100669,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100670,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100671,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100672,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100673,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100674,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100675,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100676,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100677,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100678,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100679,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100680,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100681,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100682,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100683,"Polyester interlock, premium quality",interlock polyester premium quality,61,GEN-000061,1.0,4,True
+RAW-100684,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100685,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100686,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100687,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100688,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100689,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100690,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100691,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100692,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100693,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100694,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100695,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100696,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100697,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100698,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100699,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100700,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100701,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100702,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100703,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100704,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100705,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100706,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100707,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100708,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100709,Cotton-elastane-rib-2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100710,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100711,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100712,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100713,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100714,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100715,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100716,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100717,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100718,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100719,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100720,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100721,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100722,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100723,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100724,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100725,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100726,FRENCH TERRY FLEECE,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100727,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100728,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100729,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100730,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100731,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100732,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100733,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100734,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100735,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100736,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100737,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100738,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100739,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100740,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100741,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100742,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100743,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100744,jersey single Cotton,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100745,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100746,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100747,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100748,"Rayon modal jersey, premium quality",jersey modal premium quality rayon,59,GEN-000059,1.0,2,True
+RAW-100749,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100750,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100751,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100752,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100753,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100754,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100755,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100756,Cotton-pique-knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100757,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100758,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100759,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100760,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100761,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100762,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100763,interlock Polyester,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100764,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100765,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100766,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100767,"Cotton canvas duck, premium quality",canvas cotton duck premium quality,64,GEN-000064,1.0,3,True
+RAW-100768,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100769,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100770,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100771,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100772,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100773,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100774,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100775,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100776,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100777,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100778,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100779,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100780,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100781,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100782,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100783,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100784,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100785,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100786,Pure French terry fleece,fleece french pure terry,83,GEN-000083,1.0,2,True
+RAW-100787,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100788,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100789,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100790,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100791,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100792,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100793,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100794,Garment polybag 100%,100 garment percent polybag,75,GEN-000075,1.0,2,True
+RAW-100795,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100796,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100797,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100798,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100799,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100800,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100801,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100802,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100803,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100804,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100805,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100806,"Denim bottomweight, premium quality",bottomweight denim premium quality,33,GEN-000033,1.0,2,True
+RAW-100807,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100808,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100809,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100810,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100811,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100812,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100813,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100814,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100815,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100816,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100817,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100818,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100819,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100820,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100821,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100822,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100823,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100824,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100825,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100826,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100827,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100828,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100829,polybag Recycled,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100830,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100831,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100832,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100833,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100834,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100835,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100836,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100837,Recycled polybag,polybag recycled,13,GEN-000013,1.0,54,True
+RAW-100838,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100839,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100840,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100841,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100842,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100843,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100844,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100845,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100846,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100847,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100848,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100849,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100850,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100851,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100852,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100853,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100854,Pure French terry fleece,fleece french pure terry,83,GEN-000083,1.0,2,True
+RAW-100855,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100856,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100857,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100858,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100859,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100860,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100861,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100862,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100863,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100864,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100865,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100866,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100867,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100868,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100869,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100870,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100871,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100872,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100873,"Cotton elastane rib, premium quality",cotton elastane premium quality rib,35,GEN-000035,1.0,4,True
+RAW-100874,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100875,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100876,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100877,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100878,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100879,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100880,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100881,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100882,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100883,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100884,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100885,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100886,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100887,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100888,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100889,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100890,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100891,chine de crepe Viscose,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100892,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100893,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100894,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100895,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100896,paper tissue free Acid,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100897,Poly spandex active jersey 100%,100 active jersey percent poly spandex,49,GEN-000049,1.0,3,True
+RAW-100898,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100899,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100900,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100901,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100902,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100903,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100904,weave plain Linen,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100905,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100906,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100907,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100908,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100909,Pure Nylon ripstop,nylon pure ripstop,84,GEN-000084,1.0,1,False
+RAW-100910,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100911,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100912,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100913,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100914,VISCOSE CREPE DE CHINE,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100915,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100916,Cotton single jersey,cotton jersey single,2,GEN-000002,1.0,64,True
+RAW-100917,interlock Polyester,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100918,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100919,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100920,Rayon modal jersey,jersey modal rayon,20,GEN-000020,1.0,78,True
+RAW-100921,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100922,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100923,Cotton canvas duck 100%,100 canvas cotton duck percent,85,GEN-000085,1.0,1,False
+RAW-100924,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100925,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100926,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100927,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100928,Brushed back fleece,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100929,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100930,LINEN PLAIN WEAVE,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100931,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100932,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100933,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100934,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100935,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100936,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100937,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100938,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100939,microfleece Polyester,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100940,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100941,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100942,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100943,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100944,Acid free tissue paper,acid free paper tissue,19,GEN-000019,1.0,70,True
+RAW-100945,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100946,BRUSHED BACK FLEECE,back brushed fleece,22,GEN-000022,1.0,66,True
+RAW-100947,Polyester interlock 100%,100 interlock percent polyester,86,GEN-000086,1.0,2,True
+RAW-100948,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100949,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100950,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100951,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100952,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100953,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100954,Poly spandex active jersey,active jersey poly spandex,6,GEN-000006,1.0,72,True
+RAW-100955,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100956,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100957,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100958,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100959,Denim bottomweight 100%,100 bottomweight denim percent,81,GEN-000081,1.0,2,True
+RAW-100960,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100961,Polyester interlock 100%,100 interlock percent polyester,86,GEN-000086,1.0,2,True
+RAW-100962,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100963,Cotton canvas duck,canvas cotton duck,24,GEN-000024,1.0,77,True
+RAW-100964,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100965,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100966,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100967,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100968,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100969,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100970,Garment polybag,garment polybag,1,GEN-000001,1.0,70,True
+RAW-100971,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100972,Cotton poplin shirting,cotton poplin shirting,17,GEN-000017,1.0,68,True
+RAW-100973,Silica gel desiccant,desiccant gel silica,11,GEN-000011,1.0,71,True
+RAW-100974,Polyester chiffon,chiffon polyester,3,GEN-000003,1.0,69,True
+RAW-100975,Adhesive shipping barcode label,adhesive barcode label shipping,5,GEN-000005,1.0,64,True
+RAW-100976,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100977,Plastic shirt hanger,hanger plastic shirt,18,GEN-000018,1.0,66,True
+RAW-100978,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100979,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100980,Cotton twill chino,chino cotton twill,30,GEN-000030,1.0,58,True
+RAW-100981,Corrugated master carton,carton corrugated master,7,GEN-000007,1.0,57,True
+RAW-100982,"Viscose crepe de chine, premium quality",chine crepe de premium quality viscose,72,GEN-000072,1.0,2,True
+RAW-100983,French terry fleece,fleece french terry,4,GEN-000004,1.0,61,True
+RAW-100984,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
+RAW-100985,Polyester microfleece,microfleece polyester,26,GEN-000026,1.0,73,True
+RAW-100986,Modal cotton interlock,cotton interlock modal,15,GEN-000015,1.0,74,True
+RAW-100987,Denim bottomweight,bottomweight denim,10,GEN-000010,1.0,61,True
+RAW-100988,Bamboo organic cotton jersey,bamboo cotton jersey organic,12,GEN-000012,1.0,63,True
+RAW-100989,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100990,cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100991,"Polyester interlock, premium quality",interlock polyester premium quality,61,GEN-000061,1.0,4,True
+RAW-100992,Cotton pique knit,cotton knit pique,21,GEN-000021,1.0,67,True
+RAW-100993,Viscose crepe de chine,chine crepe de viscose,14,GEN-000014,1.0,67,True
+RAW-100994,Cotton elastane rib 2x2,2 2 cotton elastane rib,23,GEN-000023,1.0,81,True
+RAW-100995,Cotton elastane rib,cotton elastane rib,16,GEN-000016,1.0,63,True
+RAW-100996,Inner packing carton,carton inner packing,38,GEN-000038,1.0,65,True
+RAW-100997,Nylon ripstop,nylon ripstop,9,GEN-000009,1.0,76,True
+RAW-100998,Linen plain weave,linen plain weave,27,GEN-000027,1.0,68,True
+RAW-100999,Polyester interlock,interlock polyester,8,GEN-000008,1.0,76,True
