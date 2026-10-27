@@ -585,42 +585,11 @@ def load_relational_tables(
 
 
 # -----------------------------------------------------------------------------
-# Optional Seeding Utility (For Local/Test Runs)
-# -----------------------------------------------------------------------------
-
-def seed_raw_table_if_needed(engine: Engine, csv_path: str, table_name: str = "raw_materials") -> None:
-    """Seeds the source table from a CSV file if the table does not exist or is empty."""
-    is_sqlite = engine.dialect.name == "sqlite"
-    with engine.connect() as conn:
-        # Check if table exists
-        check_q = (
-            f"SELECT name FROM sqlite_master WHERE type='table' AND name='{table_name}';"
-            if is_sqlite
-            else f"SELECT table_name FROM information_schema.tables WHERE table_name = '{table_name}';"
-        )
-        table_exists = conn.execute(text(check_q)).scalar() is not None
-
-        if table_exists:
-            count = conn.execute(text(f"SELECT COUNT(*) FROM {table_name};")).scalar()
-            if count and count > 0:
-                logger.info("Table '%s' already contains %d records. Skipping seeding.", table_name, count)
-                return
-
-    logger.info("Seeding '%s' from CSV: %s ...", table_name, csv_path)
-    df_csv = pd.read_csv(csv_path, dtype=str)
-    # Standardize column headers
-    df_csv.columns = [re.sub(r"[^\w]", "_", c).strip("_").lower() for c in df_csv.columns]
-    df_csv.to_sql(name=table_name, con=engine, if_exists="replace", index=False, chunksize=10000)
-    logger.info("Seeding complete (%d rows imported).", len(df_csv))
-
-
-# -----------------------------------------------------------------------------
 # Main Execution Pipeline
 # -----------------------------------------------------------------------------
 
 def run_pipeline(
     db_url: Optional[str] = None,
-    csv_seed_path: Optional[str] = None,
     similarity_threshold: float = 0.85,
     source_table: str = "raw_materials",
     log_file: Optional[str] = None,
@@ -637,10 +606,6 @@ def run_pipeline(
     logger.info("=" * 80)
 
     engine = get_db_engine(db_url)
-
-    # Optional seeding if requested
-    if csv_seed_path:
-        seed_raw_table_if_needed(engine, csv_seed_path, source_table)
 
     # Step 1: Extract
     df_raw = extract_data(engine, source_table)
@@ -677,7 +642,6 @@ def run_pipeline(
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="End-to-end Material Deduplication & Normalization SQL Pipeline.")
     parser.add_argument("--db-url", type=str, default=None, help="Database connection URL (Postgres or SQLite).")
-    parser.add_argument("--seed-csv", type=str, default=None, help="Optional CSV file path to seed raw_materials table.")
     parser.add_argument("--threshold", type=float, default=0.85, help="Fuzzy string similarity threshold (default: 0.85).")
     parser.add_argument("--source-table", type=str, default="raw_materials", help="Source table name (default: raw_materials).")
     parser.add_argument("--log-file", type=str, default=None, help="Custom log file path (default: logs/deduplicate_and_load.log).")
@@ -687,7 +651,6 @@ if __name__ == "__main__":
     try:
         run_pipeline(
             db_url=args.db_url,
-            csv_seed_path=args.seed_csv,
             similarity_threshold=args.threshold,
             source_table=args.source_table,
             log_file=args.log_file,
@@ -695,4 +658,5 @@ if __name__ == "__main__":
     except Exception as e:
         logger.exception("Pipeline failed: %s", str(e))
         sys.exit(1)
+
 
