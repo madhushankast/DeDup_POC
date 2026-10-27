@@ -15,6 +15,18 @@ ENV/
 .coverage
 htmlcov/
 
-# DuckDB temp
+# DuckDB & SQLite temp
 *.duckdb
 *.duckdb.wal
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment & Credentials
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
