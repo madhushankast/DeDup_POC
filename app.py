@@ -139,8 +139,18 @@ def apply_chart_theme(fig):
 
 @st.cache_resource
 def get_database_engine():
-    """Builds a cached SQLAlchemy database engine using .env credentials."""
-    url = os.getenv("DATABASE_URL")
+    """Builds a cached SQLAlchemy database engine using Streamlit Secrets or .env credentials."""
+    url = None
+    # 1. Check Streamlit Secrets (used in Streamlit Community Cloud)
+    try:
+        if hasattr(st, "secrets") and "DATABASE_URL" in st.secrets:
+            url = st.secrets["DATABASE_URL"]
+    except Exception:
+        pass
+
+    # 2. Check Environment Variables / .env
+    if not url:
+        url = os.getenv("DATABASE_URL")
     if not url:
         user = os.getenv("DB_USER", "postgres")
         pwd = os.getenv("DB_PASSWORD", "")
@@ -153,35 +163,75 @@ def get_database_engine():
 
 @st.cache_data(ttl=600)
 def load_data():
-    """Loads datasets from PostgreSQL with automatic fallbacks."""
-    engine = get_database_engine()
+    """
+    Loads datasets from PostgreSQL with automatic fallback to repository data.
+    Ensures seamless deployment on Streamlit Community Cloud even without a public DB instance.
+    """
+    data_source_mode = "PostgreSQL Database"
+    try:
+        engine = get_database_engine()
 
-    # Load raw materials
-    with engine.connect() as conn:
-        df_raw = pd.read_sql("SELECT * FROM raw_materials", conn)
-
-    # Check if normalized deduplication tables exist
-    has_dedup = False
-    df_master = pd.DataFrame()
-    df_mapped = pd.DataFrame()
-
-    with engine.connect() as conn:
-        check_q = text(
-            "SELECT table_name FROM information_schema.tables WHERE table_schema = 'public' AND table_name IN ('master_materials', 'material_records_mapped');"
-        )
-        existing_tables = [row[0] for row in conn.execute(check_q).fetchall()]
-
-    if "master_materials" in existing_tables and "material_records_mapped" in existing_tables:
+        # Load raw materials
         with engine.connect() as conn:
-            df_master = pd.read_sql("SELECT * FROM master_materials", conn)
-            # Limit mapped load if necessary or load key fields
-            df_mapped = pd.read_sql(
-                "SELECT material_item_code, new_master_code, material_name, category, is_duplicate, similarity_score, cluster_id, cluster_record_count FROM material_records_mapped",
-                conn,
-            )
-        has_dedup = True
+            df_raw = pd.read_sql("SELECT * FROM raw_materials", conn)
 
-    return df_raw, df_master, df_mapped, has_dedup
+        # Check if normalized deduplication tables exist
+        has_dedup = False
+        df_master = pd.DataFrame()
+        df_mapped = pd.DataFrame()
+
+        with engine.connect() as conn:
+            check_q = text(
+                "SELECT table_name FROM information_schema.tables WHERE table_schema = 'public' AND table_name IN ('master_materials', 'material_records_mapped');"
+            )
+            existing_tables = [row[0] for row in conn.execute(check_q).fetchall()]
+
+        if "master_materials" in existing_tables and "material_records_mapped" in existing_tables:
+            with engine.connect() as conn:
+                df_master = pd.read_sql("SELECT * FROM master_materials", conn)
+                df_mapped = pd.read_sql(
+                    "SELECT material_item_code, new_master_code, material_name, category, is_duplicate, similarity_score, cluster_id, cluster_record_count FROM material_records_mapped",
+                    conn,
+                )
+            has_dedup = True
+
+        return df_raw, df_master, df_mapped, has_dedup, data_source_mode
+
+    except Exception as db_err:
+        # Fallback to local repository CSV files (Streamlit Community Cloud Mode)
+        root_dir = Path(__file__).resolve().parent
+        raw_csv = root_dir / "data" / "01_raw" / "raw_materials.csv"
+        unique_dir = root_dir / "data" / "05_unique"
+        curated_dir = root_dir / "data" / "04_curated"
+
+        if raw_csv.exists():
+            df_raw = pd.read_csv(raw_csv, dtype=str)
+            col_map = {c: c.strip().lower().replace("/", "_").replace(" ", "_") for c in df_raw.columns}
+            df_raw = df_raw.rename(columns=col_map)
+            if "category" in df_raw.columns:
+                df_raw["category"] = df_raw["category"].fillna("Uncategorized").replace({"": "Uncategorized"})
+
+            master_files = sorted(unique_dir.glob("unique_master_*.csv")) if unique_dir.exists() else []
+            curated_files = sorted(curated_dir.glob("curated_*.csv")) if curated_dir.exists() else []
+
+            df_master = pd.concat([pd.read_csv(f, dtype=str) for f in master_files], ignore_index=True) if master_files else pd.DataFrame()
+            df_mapped = pd.concat([pd.read_csv(f, dtype=str) for f in curated_files], ignore_index=True) if curated_files else pd.DataFrame()
+
+            if not df_master.empty and "Material name" in df_master.columns:
+                df_master = df_master.rename(columns={"Material name": "canonical_material_name"})
+            if not df_mapped.empty:
+                col_map_mapped = {c: c.strip().lower().replace("/", "_").replace(" ", "_") for c in df_mapped.columns}
+                df_mapped = df_mapped.rename(columns=col_map_mapped)
+                if "is_duplicate" in df_mapped.columns:
+                    df_mapped["is_duplicate"] = df_mapped["is_duplicate"].astype(str).str.lower().isin(["true", "1"])
+                if "similarity_score" in df_mapped.columns:
+                    df_mapped["similarity_score"] = pd.to_numeric(df_mapped["similarity_score"], errors="coerce").fillna(1.0)
+
+            has_dedup = not df_master.empty and not df_mapped.empty
+            data_source_mode = "Repository Data (Streamlit Cloud Demo)"
+            return df_raw, df_master, df_mapped, has_dedup, data_source_mode
+        else:
+            raise db_err
 
 
 # Header section
@@ -189,14 +239,19 @@ st.title("🧵 Apparel Raw Materials & Deduplication Dashboard")
 st.caption("PostgreSQL Analytics, Catalog Normalization & Duplicate Management")
 
 try:
-    df_raw, df_master, df_mapped, has_dedup = load_data()
+    df_raw, df_master, df_mapped, has_dedup, data_source_mode = load_data()
 except Exception as e:
-    st.error(f"Failed to connect to PostgreSQL database: {e}")
-    st.info("Please verify your database credentials in `.env` and that PostgreSQL is running.")
+    st.error(f"Failed to load dataset: {e}")
+    st.info("Please verify your database credentials in `.env` or verify the repository data directory.")
     st.stop()
 
 # Sidebar Controls
-st.sidebar.header("Navigation & Filters")
+st.sidebar.header("Navigation & Status")
+if "PostgreSQL" in data_source_mode:
+    st.sidebar.success(f"🟢 {data_source_mode}")
+else:
+    st.sidebar.info(f"☁️ {data_source_mode}")
+
 active_tab = st.sidebar.radio(
     "Select View",
     ["📊 Raw Materials Overview", "✨ Master Deduplication & Clusters"] if has_dedup else ["📊 Raw Materials Overview"],
@@ -205,6 +260,7 @@ active_tab = st.sidebar.radio(
 if st.sidebar.button("🔄 Refresh Data Cache"):
     st.cache_data.clear()
     st.rerun()
+
 
 # -----------------------------------------------------------------------------
 # TAB 1: Raw Materials Overview (Requested View)
