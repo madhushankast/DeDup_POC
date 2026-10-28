@@ -100,175 +100,6 @@ st.markdown(
         color: #94a3b8;
         border: 1px solid rgba(148, 163, 184, 0.22);
     }
-
-    /* Hero View Switcher Component */
-    .view-switcher-title {
-        font-size: 0.95rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.6px;
-        opacity: 0.85;
-        margin: 10px 0 12px 2px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
-    .view-card {
-        background: rgba(255, 255, 255, 0.035);
-        border: 1px solid rgba(128, 128, 128, 0.22);
-        border-radius: 14px;
-        padding: 18px 20px;
-        min-height: 156px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        position: relative;
-        overflow: hidden;
-        backdrop-filter: blur(12px);
-        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
-        transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
-        margin-bottom: 6px;
-        box-sizing: border-box;
-    }
-    .view-card:hover {
-        transform: translateY(-2px);
-        border-color: rgba(59, 130, 246, 0.55);
-        box-shadow: 0 8px 24px -4px rgba(59, 130, 246, 0.22);
-    }
-    .view-card.active-card {
-        background: linear-gradient(135deg, rgba(59, 130, 246, 0.12), rgba(139, 92, 246, 0.09));
-        border: 2px solid #3b82f6;
-        box-shadow: 0 10px 30px -4px rgba(59, 130, 246, 0.35);
-    }
-    .view-card.active-card::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 4px;
-        background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
-    }
-    .view-card-top {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 10px;
-        margin-bottom: 6px;
-    }
-    .view-card-headline {
-        font-size: 1.15rem;
-        font-weight: 700;
-        line-height: 1.25;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
-    .view-card-subtitle {
-        font-size: 0.86rem;
-        opacity: 0.8;
-        line-height: 1.4;
-        margin-bottom: 10px;
-    }
-    .view-card-meta {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: auto;
-        padding-top: 10px;
-        border-top: 1px solid rgba(128, 128, 128, 0.15);
-    }
-    .view-card-stat {
-        font-size: 0.84rem;
-        font-weight: 600;
-        opacity: 0.95;
-        display: flex;
-        align-items: center;
-        gap: 6px;
-    }
-    .badge-star-feature {
-        background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
-        color: #ffffff !important;
-        font-size: 0.72rem;
-        font-weight: 700;
-        letter-spacing: 0.6px;
-        text-transform: uppercase;
-        padding: 3px 10px;
-        border-radius: 9999px;
-        box-shadow: 0 2px 12px rgba(236, 72, 153, 0.45);
-        display: inline-flex;
-        align-items: center;
-        gap: 5px;
-        animation: pulse-glow 2.5s infinite ease-in-out;
-    }
-    .badge-baseline {
-        background: rgba(59, 130, 246, 0.15);
-        color: #60a5fa;
-        border: 1px solid rgba(59, 130, 246, 0.32);
-        font-size: 0.72rem;
-        font-weight: 700;
-        letter-spacing: 0.5px;
-        text-transform: uppercase;
-        padding: 3px 9px;
-        border-radius: 9999px;
-        display: inline-flex;
-        align-items: center;
-        gap: 4px;
-    }
-    .status-indicator {
-        font-size: 0.72rem;
-        font-weight: 700;
-        letter-spacing: 0.5px;
-        text-transform: uppercase;
-        padding: 2px 9px;
-        border-radius: 9999px;
-        display: inline-flex;
-        align-items: center;
-        gap: 4px;
-    }
-    .status-indicator.active {
-        background: rgba(34, 197, 94, 0.18);
-        color: #22c55e;
-        border: 1px solid rgba(34, 197, 94, 0.35);
-    }
-    .status-indicator.inactive {
-        background: rgba(148, 163, 184, 0.12);
-        color: #94a3b8;
-        border: 1px solid rgba(148, 163, 184, 0.2);
-    }
-    @keyframes pulse-glow {
-        0%, 100% { box-shadow: 0 0 8px rgba(236, 72, 153, 0.35); }
-        50% { box-shadow: 0 0 20px rgba(236, 72, 153, 0.75); }
-    }
-
-    /* Enhanced Sidebar Navigation */
-    [data-testid="stSidebar"] [data-testid="stRadio"] > div {
-        gap: 10px;
-    }
-    [data-testid="stSidebar"] [data-testid="stRadio"] label {
-        background: rgba(255, 255, 255, 0.04);
-        border: 1px solid rgba(128, 128, 128, 0.22);
-        border-radius: 12px;
-        padding: 12px 14px;
-        transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        font-weight: 500;
-        width: 100%;
-        box-sizing: border-box;
-    }
-    [data-testid="stSidebar"] [data-testid="stRadio"] label:hover {
-        background: rgba(59, 130, 246, 0.08);
-        border-color: #3b82f6;
-        transform: translateX(2px);
-    }
-    [data-testid="stSidebar"] [data-testid="stRadio"] label:has(input:checked) {
-        background: linear-gradient(135deg, rgba(59, 130, 246, 0.18), rgba(139, 92, 246, 0.18)) !important;
-        border: 1.5px solid #3b82f6 !important;
-        box-shadow: 0 4px 14px -2px rgba(59, 130, 246, 0.3);
-        font-weight: 700;
-    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -414,154 +245,27 @@ except Exception as e:
     st.info("Please verify your database credentials in `.env` or verify the repository data directory.")
     st.stop()
 
-# Pre-calculate high-level metrics for the hero cards and navigation
-total_raw_count = len(df_raw)
-total_master_count = len(df_master) if not df_master.empty else 0
-dupes_count = int(df_mapped["is_duplicate"].sum()) if (not df_mapped.empty and "is_duplicate" in df_mapped.columns) else 0
-reduction_rate = (((len(df_mapped) - total_master_count) / len(df_mapped)) * 100) if (not df_mapped.empty and len(df_mapped) > 0) else 0.0
-
-VIEW_RAW = "📊 Raw Materials Overview"
-VIEW_DEDUP = "✨ Master Deduplication & Clusters"
-VIEW_OPTIONS = [VIEW_RAW, VIEW_DEDUP] if has_dedup else [VIEW_RAW]
-
-# Initialize or synchronize session state (Default to Core Feature if available)
-if "active_view" not in st.session_state or st.session_state["active_view"] not in VIEW_OPTIONS:
-    st.session_state["active_view"] = VIEW_DEDUP if has_dedup else VIEW_RAW
-
 # Sidebar Controls
-st.sidebar.header("🧭 Navigation & Status")
+st.sidebar.header("Navigation & Status")
 if "PostgreSQL" in data_source_mode:
     st.sidebar.success(f"🟢 {data_source_mode}")
 else:
     st.sidebar.info(f"☁️ {data_source_mode}")
 
-def sync_sidebar():
-    st.session_state["active_view"] = st.session_state["sidebar_radio_key"]
-
-st.sidebar.markdown("**Select Active View:**")
-active_sidebar = st.sidebar.radio(
-    "Select View Mode",
-    options=VIEW_OPTIONS,
-    index=VIEW_OPTIONS.index(st.session_state["active_view"]),
-    key="sidebar_radio_key",
-    on_change=sync_sidebar,
-    label_visibility="collapsed",
+active_tab = st.sidebar.radio(
+    "Select View",
+    ["📊 Raw Materials Overview", "✨ Master Deduplication & Clusters"] if has_dedup else ["📊 Raw Materials Overview"],
 )
-st.session_state["active_view"] = active_sidebar
 
-if st.sidebar.button("🔄 Refresh Data Cache", use_container_width=True):
+if st.sidebar.button("🔄 Refresh Data Cache"):
     st.cache_data.clear()
     st.rerun()
 
-st.sidebar.markdown("---")
-st.sidebar.markdown(
-    f"""
-    <div style="font-size: 0.8rem; opacity: 0.82; line-height: 1.45; padding: 4px 2px;">
-        💡 <b>Core POC Feature</b>:<br>
-        The <i>Master Deduplication & Clusters</i> module showcases <b>{reduction_rate:.1f}% SKU redundancy reduction</b> using AI cluster normalization.
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
-
-# -----------------------------------------------------------------------------
-# HIGH-IMPACT HERO VIEW SWITCHER (MAIN CONTAINER)
-# -----------------------------------------------------------------------------
-st.markdown('<div class="view-switcher-title"><span>🎯 Select Dashboard View</span></div>', unsafe_allow_html=True)
-
-nav_col1, nav_col2 = st.columns(2)
-
-is_raw_active = st.session_state["active_view"] == VIEW_RAW
-is_dedup_active = st.session_state["active_view"] == VIEW_DEDUP
-
-with nav_col1:
-    raw_status_class = "active" if is_raw_active else "inactive"
-    raw_status_label = "● ACTIVE MODULE" if is_raw_active else "○ SWITCH TO VIEW"
-    raw_card_class = "view-card active-card" if is_raw_active else "view-card"
-
-    st.markdown(
-        f"""
-        <div class="{raw_card_class}">
-            <div class="view-card-top">
-                <div class="view-card-headline">
-                    <span>📊</span>
-                    <span>Raw Materials Overview</span>
-                </div>
-                <span class="badge-baseline">INGESTION BASELINE</span>
-            </div>
-            <div class="view-card-subtitle">
-                Inspect <b>{total_raw_count:,}</b> uncleaned apparel raw material records, category splits, colour distributions, and explore raw SKU codes.
-            </div>
-            <div class="view-card-meta">
-                <div class="view-card-stat">
-                    <span>📦</span>
-                    <span><b>{total_raw_count:,}</b> Ingested SKUs</span>
-                </div>
-                <span class="status-indicator {raw_status_class}">{raw_status_label}</span>
-            </div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-    if st.button(
-        "✓ Raw Materials Overview Active" if is_raw_active else "📊 Switch to Raw Materials Overview",
-        key="btn_switch_raw",
-        use_container_width=True,
-        type="primary" if is_raw_active else "secondary",
-    ):
-        st.session_state["active_view"] = VIEW_RAW
-        st.session_state["sidebar_radio_key"] = VIEW_RAW
-        st.rerun()
-
-with nav_col2:
-    if has_dedup:
-        dedup_status_class = "active" if is_dedup_active else "inactive"
-        dedup_status_label = "● ACTIVE MODULE" if is_dedup_active else "○ SWITCH TO VIEW"
-        dedup_card_class = "view-card active-card" if is_dedup_active else "view-card"
-
-        st.markdown(
-            f"""
-            <div class="{dedup_card_class}">
-                <div class="view-card-top">
-                    <div class="view-card-headline">
-                        <span>✨</span>
-                        <span>Master Deduplication & Clusters</span>
-                    </div>
-                    <span class="badge-star-feature">⭐ CORE POC ENGINE</span>
-                </div>
-                <div class="view-card-subtitle">
-                    AI/ML clustering & canonical material codes: resolves <b>{dupes_count:,}</b> redundant variations into <b>{total_master_count:,}</b> normalized master SKUs.
-                </div>
-                <div class="view-card-meta">
-                    <div class="view-card-stat" style="color: #c084fc;">
-                        <span>⚡</span>
-                        <span><b>{reduction_rate:.1f}%</b> SKU Redundancy Reduction</span>
-                    </div>
-                    <span class="status-indicator {dedup_status_class}">{dedup_status_label}</span>
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-        if st.button(
-            "✓ Master Deduplication Active" if is_dedup_active else "✨ Switch to Master Deduplication & Clusters",
-            key="btn_switch_dedup",
-            use_container_width=True,
-            type="primary" if is_dedup_active else "secondary",
-        ):
-            st.session_state["active_view"] = VIEW_DEDUP
-            st.session_state["sidebar_radio_key"] = VIEW_DEDUP
-            st.rerun()
-
-st.markdown("<div style='margin-bottom: 12px;'></div>", unsafe_allow_html=True)
-
-active_tab = st.session_state["active_view"]
 
 # -----------------------------------------------------------------------------
 # TAB 1: Raw Materials Overview (Requested View)
 # -----------------------------------------------------------------------------
 if active_tab == "📊 Raw Materials Overview":
-    st.info(f"ℹ️ **Raw Materials Ingestion View**: You are viewing the raw catalog baseline ({total_raw_count:,} records). To inspect the AI deduplication engine results and canonical master clusters, click **✨ Master Deduplication & Clusters** above.")
     st.subheader("Raw Materials Catalog Metrics")
 
     # Clean category column for dashboard display
@@ -672,7 +376,6 @@ if active_tab == "📊 Raw Materials Overview":
 # TAB 2: Deduplication & Master Catalog Insights
 # -----------------------------------------------------------------------------
 elif active_tab == "✨ Master Deduplication & Clusters" and has_dedup:
-    st.success(f"🌟 **Core Feature Deliverable**: Normalized Master Materials Catalog & AI Cluster Analytics ({reduction_rate:.1f}% catalog redundancy reduction achieved).")
     st.subheader("Normalized Master Catalog & Deduplication Analytics")
 
     total_raw = len(df_mapped)
