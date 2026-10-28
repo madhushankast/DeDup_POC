@@ -216,7 +216,7 @@ def get_category_prefix(category_name: str, prefix_map: Dict[str, str]) -> str:
 # -----------------------------------------------------------------------------
 
 def get_db_engine(db_url: Optional[str] = None) -> Engine:
-    """Creates a SQLAlchemy engine using provided URL or environment variables."""
+    """Creates a SQLAlchemy engine using provided URL or environment variables (Supabase)."""
     if not HAS_SQLALCHEMY:
         raise ImportError("SQLAlchemy is required. Install via: pip install sqlalchemy")
 
@@ -224,12 +224,9 @@ def get_db_engine(db_url: Optional[str] = None) -> Engine:
 
     url = db_url or os.getenv("DATABASE_URL")
     if not url:
-        user = os.getenv("DB_USER", "postgres")
-        pwd = os.getenv("DB_PASSWORD", "")
-        host = os.getenv("DB_HOST", "localhost")
-        port = os.getenv("DB_PORT", "5432")
-        db = os.getenv("DB_NAME", "postgres")
-        url = f"postgresql+psycopg2://{user}:{pwd}@{host}:{port}/{db}"
+        raise ValueError(
+            "DATABASE_URL is not set. Please provide your Supabase connection string via --db-url or DATABASE_URL in .env."
+        )
 
     logger.info("Connecting to database: %s", re.sub(r":([^:@]+)@", ":****@", url))
     return create_engine(url, pool_pre_ping=True)

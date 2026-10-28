@@ -139,7 +139,7 @@ def apply_chart_theme(fig):
 
 @st.cache_resource
 def get_database_engine():
-    """Builds a cached SQLAlchemy database engine using Streamlit Secrets or .env credentials."""
+    """Builds a cached SQLAlchemy database engine using Streamlit Secrets or .env DATABASE_URL (Supabase)."""
     url = None
     # 1. Check Streamlit Secrets (used in Streamlit Community Cloud)
     try:
@@ -151,13 +151,12 @@ def get_database_engine():
     # 2. Check Environment Variables / .env
     if not url:
         url = os.getenv("DATABASE_URL")
+
     if not url:
-        user = os.getenv("DB_USER", "postgres")
-        pwd = os.getenv("DB_PASSWORD", "")
-        host = os.getenv("DB_HOST", "localhost")
-        port = os.getenv("DB_PORT", "5432")
-        db = os.getenv("DB_NAME", "postgres")
-        url = f"postgresql+psycopg2://{user}:{pwd}@{host}:{port}/{db}"
+        raise ValueError(
+            "DATABASE_URL is not configured. Please set DATABASE_URL with your Supabase connection string in .env or Streamlit Secrets."
+        )
+
     return create_engine(url, pool_pre_ping=True)
 
 
