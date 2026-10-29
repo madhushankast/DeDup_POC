@@ -464,35 +464,20 @@ if active_tab == "📊 Raw Materials Overview":
 
     # Category volume distribution bar chart
     st.subheader("Category Volume Distribution")
-    col_chart_left, col_chart_right = st.columns(2)
-
-    with col_chart_left:
-        cat_counts = df_raw["category"].value_counts().reset_index()
-        cat_counts.columns = ["Category", "Record Count"]
-        cat_fig = px.bar(
-            cat_counts,
-            x="Category",
-            y="Record Count",
-            title="Raw Materials Volume per Category",
-            text="Record Count",
-            color="Category",
-            color_discrete_sequence=px.colors.qualitative.Prism,
-        )
-        cat_fig.update_traces(texttemplate="%{text:,}", textposition="outside")
-        cat_fig.update_layout(showlegend=False, xaxis_title="", yaxis_title="Number of Items")
-        st.plotly_chart(apply_chart_theme(cat_fig), use_container_width=True)
-
-    with col_chart_right:
-        if "inventory_uom" in df_raw.columns:
-            uom_fig = px.pie(
-                df_raw,
-                names="inventory_uom",
-                title="Distribution by Inventory Unit of Measure (UOM)",
-                hole=0.45,
-                color_discrete_sequence=px.colors.qualitative.Pastel,
-            )
-            uom_fig.update_traces(textinfo="percent+label")
-            st.plotly_chart(apply_chart_theme(uom_fig), use_container_width=True)
+    cat_counts = df_raw["category"].value_counts().reset_index()
+    cat_counts.columns = ["Category", "Record Count"]
+    cat_fig = px.bar(
+        cat_counts,
+        x="Category",
+        y="Record Count",
+        title="Raw Materials Volume per Category",
+        text="Record Count",
+        color="Category",
+        color_discrete_sequence=px.colors.qualitative.Prism,
+    )
+    cat_fig.update_traces(texttemplate="%{text:,}", textposition="outside")
+    cat_fig.update_layout(showlegend=False, xaxis_title="", yaxis_title="Number of Items")
+    st.plotly_chart(apply_chart_theme(cat_fig), use_container_width=True)
 
     st.markdown("---")
 
@@ -551,40 +536,21 @@ elif (active_tab == "🏛️ Master Catalog Explorer" or "Master Catalog Explore
     if "norm_material_name" not in df_master.columns and "canonical_material_name" in df_master.columns:
         df_master["norm_material_name"] = df_master["canonical_material_name"].astype(str).str.lower().str.strip()
 
-    # Top-Cluster Bar Chart & Category Distribution
-    col_master_chart1, col_master_chart2 = st.columns(2)
-
-    with col_master_chart1:
-        st.markdown("##### Top 10 Canonical Materials by Record Count")
-        top_clusters = df_master.sort_values(by="cluster_record_count", ascending=False).head(10)
-        fig_top_clusters = px.bar(
-            top_clusters,
-            x="cluster_record_count",
-            y="canonical_material_name",
-            orientation="h",
-            title="Highest Variation Duplicate Clusters",
-            labels={"cluster_record_count": "Raw Variations in Cluster", "canonical_material_name": "Canonical Material Name"},
-            color="cluster_record_count",
-            color_continuous_scale="Reds",
-        )
-        fig_top_clusters.update_layout(yaxis={"autorange": "reversed"})
-        st.plotly_chart(apply_chart_theme(fig_top_clusters), use_container_width=True)
-
-    with col_master_chart2:
-        st.markdown("##### Canonical Master Items by Category")
-        master_cat = df_master["category"].value_counts().reset_index()
-        master_cat.columns = ["Category", "Unique Master Items"]
-        fig_master_cat = px.bar(
-            master_cat,
-            x="Category",
-            y="Unique Master Items",
-            title="Standard Master Items by Category",
-            text="Unique Master Items",
-            color="Category",
-            color_discrete_sequence=px.colors.qualitative.Bold,
-        )
-        fig_master_cat.update_traces(texttemplate="%{text:,}", textposition="outside")
-        st.plotly_chart(apply_chart_theme(fig_master_cat), use_container_width=True)
+    # Canonical Master Items by Category
+    st.markdown("##### Standard Master Items by Category")
+    master_cat = df_master["category"].value_counts().reset_index()
+    master_cat.columns = ["Category", "Unique Master Items"]
+    fig_master_cat = px.bar(
+        master_cat,
+        x="Category",
+        y="Unique Master Items",
+        title="Standard Master Items by Category",
+        text="Unique Master Items",
+        color="Category",
+        color_discrete_sequence=px.colors.qualitative.Bold,
+    )
+    fig_master_cat.update_traces(texttemplate="%{text:,}", textposition="outside")
+    st.plotly_chart(apply_chart_theme(fig_master_cat), use_container_width=True)
 
     st.markdown("---")
 
