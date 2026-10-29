@@ -15,13 +15,18 @@ st.set_page_config(
     page_title="Material Master & Deduplication Dashboard",
     page_icon="🧵",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 # Modern Theme-Adaptive Styling (Dark & Light Mode Compatible)
 st.markdown(
     """
     <style>
+    /* Hide Empty Sidebar */
+    [data-testid="stSidebar"] {
+        display: none;
+    }
+
     /* Uniform-Height, Theme-Adaptive KPI Cards */
     .kpi-card {
         background: rgba(255, 255, 255, 0.04);
@@ -402,31 +407,48 @@ except Exception as e:
 PAGE_OPTIONS = (
     [
         "📊 Raw Materials Overview",
-        "🏛️ Master Catalog Explorer (master_materials)",
+        "🏛️ Master Catalog Explorer",
         "🔗 Raw Item Tracking with Foreign Key",
     ]
     if has_dedup
     else ["📊 Raw Materials Overview"]
 )
 
-# Sidebar Navigation
-with st.sidebar:
-    st.header("Navigation & Status")
-    if "PostgreSQL" in data_source_mode:
-        st.success(f"🟢 {data_source_mode}")
-    else:
-        st.info(f"☁️ {data_source_mode}")
+# Top Horizontal Header Navigation Bar
+nav_col_left, nav_col_center, nav_col_right = st.columns([1.5, 4.5, 1.2], vertical_alignment="center")
 
-    active_tab = st.radio(
-        "Select View",
-        options=PAGE_OPTIONS,
-        key="sidebar_page_radio",
+with nav_col_left:
+    status_color = "#22c55e" if "PostgreSQL" in data_source_mode else "#60a5fa"
+    status_bg = "rgba(34, 197, 94, 0.14)" if "PostgreSQL" in data_source_mode else "rgba(59, 130, 246, 0.14)"
+    status_border = "rgba(34, 197, 94, 0.35)" if "PostgreSQL" in data_source_mode else "rgba(59, 130, 246, 0.35)"
+    icon_dot = "🟢" if "PostgreSQL" in data_source_mode else "☁️"
+    st.markdown(
+        f"""
+        <div style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; background: {status_bg}; border: 1px solid {status_border}; border-radius: 20px; font-weight: 600; font-size: 0.88rem; color: {status_color}; white-space: nowrap;">
+            <span>{icon_dot}</span>
+            <span>{data_source_mode}</span>
+        </div>
+        """,
+        unsafe_allow_html=True,
     )
 
-    st.markdown("---")
-    if st.button("🔄 Clear & Reload Cache", key="sidebar_refresh_btn", use_container_width=True):
+with nav_col_center:
+    active_tab = st.segmented_control(
+        "Select View",
+        options=PAGE_OPTIONS,
+        default=PAGE_OPTIONS[0],
+        label_visibility="collapsed",
+        key="top_nav_segmented",
+    )
+    if not active_tab:
+        active_tab = PAGE_OPTIONS[0]
+
+with nav_col_right:
+    if st.button("🔄 Clear & Reload Cache", use_container_width=True, key="top_clear_cache_btn"):
         st.cache_data.clear()
         st.rerun()
+
+st.markdown("---")
 
 
 # =============================================================================
@@ -516,8 +538,8 @@ if active_tab == "📊 Raw Materials Overview":
 # =============================================================================
 # PAGE 2: 🏛️ Master Catalog Explorer (master_materials)
 # =============================================================================
-elif active_tab == "🏛️ Master Catalog Explorer (master_materials)" and has_dedup:
-    st.title("🏛️ Master Catalog Explorer (master_materials)")
+elif (active_tab == "🏛️ Master Catalog Explorer" or "Master Catalog Explorer" in active_tab) and has_dedup:
+    st.title("🏛️ Master Catalog Explorer")
     st.caption("Canonical master catalog with one consolidated entity per unique material (`new_master_code`).")
     st.markdown("---")
 
