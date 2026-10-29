@@ -228,6 +228,34 @@ st.markdown(
         color: #60a5fa;
         box-shadow: 0 2px 8px rgba(59, 130, 246, 0.22);
     }
+
+    /* Styled Metric Cards for Global Pipeline Summary Banner */
+    div[data-testid="stMetric"] {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(128, 128, 128, 0.22);
+        border-radius: 12px;
+        padding: 14px 18px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    div[data-testid="stMetric"]:hover {
+        transform: translateY(-2px);
+        border-color: #3b82f6;
+        box-shadow: 0 8px 20px -4px rgba(59, 130, 246, 0.2);
+    }
+    div[data-testid="stMetric"] label {
+        font-size: 0.82rem !important;
+        font-weight: 600 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.35px !important;
+        opacity: 0.82 !important;
+    }
+    div[data-testid="stMetric"] div[data-testid="stMetricValue"] {
+        font-size: 1.55rem !important;
+        font-weight: 700 !important;
+        letter-spacing: -0.3px !important;
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -430,15 +458,6 @@ with st.sidebar:
         st.rerun()
 
     st.markdown("---")
-    st.markdown("### 📊 Pipeline Summary")
-    st.markdown(f"- **Raw Records:** `{len(df_raw):,}`")
-    if has_dedup:
-        st.markdown(f"- **Master Codes:** `{len(df_master):,}`")
-        reduction_val = ((len(df_raw) - len(df_master)) / len(df_raw) * 100) if len(df_raw) else 0
-        st.markdown(f"- **Redundancy Reduced:** `{reduction_val:.2f}%`")
-        st.markdown(f"- **Algorithm:** `RapidFuzz (0.85) + DSU`")
-
-    st.markdown("---")
     if st.button("🔄 Clear & Reload Cache", key="sidebar_refresh_btn", use_container_width=True):
         st.cache_data.clear()
         st.rerun()
@@ -488,6 +507,23 @@ with nav_col2:
 
 st.markdown("<div style='margin-bottom: 12px;'></div>", unsafe_allow_html=True)
 active_tab = st.session_state["current_page"]
+
+# =============================================================================
+# GLOBAL PIPELINE SUMMARY BANNER (Top of Main Page Body)
+# =============================================================================
+raw_count_str = f"{len(df_raw):,}"
+master_count_str = f"{len(df_master):,}" if has_dedup else "N/A"
+reduction_val = ((len(df_raw) - len(df_master)) / len(df_raw) * 100) if (len(df_raw) and has_dedup) else 0.0
+reduction_str = f"{reduction_val:.2f}%" if has_dedup else "N/A"
+algorithm_str = "RapidFuzz (0.85) + DSU"
+
+metric_col1, metric_col2, metric_col3, metric_col4 = st.columns(4)
+metric_col1.metric("Raw Records", raw_count_str)
+metric_col2.metric("Master Codes", master_count_str)
+metric_col3.metric("Redundancy Reduced", reduction_str)
+metric_col4.metric("Algorithm", algorithm_str)
+
+st.markdown("---")
 
 
 # =============================================================================
