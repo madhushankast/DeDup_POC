@@ -397,31 +397,7 @@ except Exception as e:
     st.stop()
 
 # =============================================================================
-# TOP HEADER: Navigation & Status Banner
-# =============================================================================
-status_pill_class = "status-pill-green" if "PostgreSQL" in data_source_mode else "status-pill-blue"
-dot_class = "dot-green" if "PostgreSQL" in data_source_mode else "dot-blue"
-
-st.markdown(
-    f"""
-    <div class="top-header-banner">
-        <div class="top-header-left">
-            <h1 class="top-header-title">🧵 Apparel Raw Materials & Deduplication Dashboard</h1>
-            <div class="top-header-caption">PostgreSQL Analytics &bull; RapidFuzz Fuzzy Clustering &bull; Catalog Normalization</div>
-        </div>
-        <div class="top-header-right">
-            <div class="status-pill {status_pill_class}">
-                <span class="status-dot {dot_class}"></span>
-                <span>{data_source_mode}</span>
-            </div>
-        </div>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
-
-# =============================================================================
-# NAVIGATION CONFIGURATION (Target 3-Page Layout)
+# NAVIGATION CONFIGURATION
 # =============================================================================
 PAGE_OPTIONS = (
     [
@@ -433,13 +409,7 @@ PAGE_OPTIONS = (
     else ["📊 Raw Materials Overview"]
 )
 
-# Synchronize current active page across sidebar and top header
-if "current_page" not in st.session_state or st.session_state["current_page"] not in PAGE_OPTIONS:
-    st.session_state["current_page"] = PAGE_OPTIONS[0]
-
-# -----------------------------------------------------------------------------
-# 1. Sidebar Navigation
-# -----------------------------------------------------------------------------
+# Sidebar Navigation
 with st.sidebar:
     st.header("Navigation & Status")
     if "PostgreSQL" in data_source_mode:
@@ -447,117 +417,28 @@ with st.sidebar:
     else:
         st.info(f"☁️ {data_source_mode}")
 
-    sidebar_selected = st.radio(
+    active_tab = st.radio(
         "Select View",
         options=PAGE_OPTIONS,
-        index=PAGE_OPTIONS.index(st.session_state["current_page"]),
         key="sidebar_page_radio",
     )
-    if sidebar_selected != st.session_state["current_page"]:
-        st.session_state["current_page"] = sidebar_selected
-        st.rerun()
 
     st.markdown("---")
     if st.button("🔄 Clear & Reload Cache", key="sidebar_refresh_btn", use_container_width=True):
         st.cache_data.clear()
         st.rerun()
 
-# -----------------------------------------------------------------------------
-# 2. Top Header Banner & Synchronized View Switcher
-# -----------------------------------------------------------------------------
-status_pill_class = "status-pill-green" if "PostgreSQL" in data_source_mode else "status-pill-blue"
-dot_class = "dot-green" if "PostgreSQL" in data_source_mode else "dot-blue"
-
-st.markdown(
-    f"""
-    <div class="top-header-banner">
-        <div class="top-header-left">
-            <h1 class="top-header-title">🧵 Apparel Raw Materials & Master Catalog System</h1>
-            <div class="top-header-caption">PostgreSQL Relational Analytics &bull; RapidFuzz Deduplication &bull; Parent/Child Normalization</div>
-        </div>
-        <div class="top-header-right">
-            <div class="status-pill {status_pill_class}">
-                <span class="status-dot {dot_class}"></span>
-                <span>{data_source_mode}</span>
-            </div>
-        </div>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
-
-nav_col1, nav_col2 = st.columns([4, 1], gap="medium")
-with nav_col1:
-    top_selected = st.radio(
-        "Select View",
-        options=PAGE_OPTIONS,
-        index=PAGE_OPTIONS.index(st.session_state["current_page"]),
-        horizontal=True,
-        label_visibility="collapsed",
-        key="top_nav_page_radio",
-    )
-    if top_selected != st.session_state["current_page"]:
-        st.session_state["current_page"] = top_selected
-        st.rerun()
-
-with nav_col2:
-    if st.button("🔄 Refresh Cache", use_container_width=True, key="top_refresh_btn"):
-        st.cache_data.clear()
-        st.rerun()
-
-st.markdown("<div style='margin-bottom: 12px;'></div>", unsafe_allow_html=True)
-active_tab = st.session_state["current_page"]
-
-# =============================================================================
-# GLOBAL PIPELINE SUMMARY BANNER (Top of Main Page Body)
-# =============================================================================
-raw_count_str = f"{len(df_raw):,}"
-master_count_str = f"{len(df_master):,}" if has_dedup else "N/A"
-reduction_val = ((len(df_raw) - len(df_master)) / len(df_raw) * 100) if (len(df_raw) and has_dedup) else 0.0
-reduction_str = f"{reduction_val:.2f}%" if has_dedup else "N/A"
-algorithm_str = "RapidFuzz (0.85) + DSU"
-
-metric_col1, metric_col2, metric_col3, metric_col4 = st.columns(4)
-metric_col1.metric("Raw Records", raw_count_str)
-metric_col2.metric("Master Codes", master_count_str)
-metric_col3.metric("Redundancy Reduced", reduction_str)
-metric_col4.metric("Algorithm", algorithm_str)
-
-st.markdown("---")
-
 
 # =============================================================================
 # PAGE 1: 📊 Raw Materials Overview
 # =============================================================================
 if active_tab == "📊 Raw Materials Overview":
-    st.subheader("📊 Raw Materials Overview")
-    st.markdown("Inspect and audit incoming raw inventory records prior to deduplication.")
+    st.title("📊 Raw Materials Overview")
+    st.caption("Uncleaned source inventory records from `raw_materials` prior to deduplication.")
+    st.markdown("---")
 
     # Clean category column for dashboard display
     df_raw["category"] = df_raw["category"].fillna("Uncategorized").replace({"": "Uncategorized"})
-    uncategorized_mask = df_raw["category"].astype(str).str.strip().str.lower().isin(["uncategorized", "none", "", "nan"])
-    uncategorized_count = int(uncategorized_mask.sum())
-    total_categories = df_raw["category"].nunique()
-
-    # Summary metric KPI cards
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        render_kpi_card("Total Raw Records", f"{len(df_raw):,}", badge_text="100% Ingested", badge_type="blue", icon="📦")
-    with col2:
-        render_kpi_card("Total Categories", str(total_categories), badge_text="Partition Isolated", badge_type="purple", icon="🗂️")
-    with col3:
-        render_kpi_card(
-            "Uncategorized Records",
-            f"{uncategorized_count:,}",
-            badge_text="Needs Triage" if uncategorized_count > 0 else "All Categorized",
-            badge_type="neutral" if uncategorized_count == 0 else "purple",
-            icon="⚠️" if uncategorized_count > 0 else "✅",
-        )
-    with col4:
-        colors_count = df_raw["colour"].nunique() if "colour" in df_raw.columns else 0
-        render_kpi_card("Distinct Colours", f"{colors_count:,}", badge_text="Variants Tracked", badge_type="neutral", icon="🎨")
-
-    st.markdown("---")
 
     # Category volume distribution bar chart
     st.subheader("Category Volume Distribution")
@@ -636,8 +517,9 @@ if active_tab == "📊 Raw Materials Overview":
 # PAGE 2: 🏛️ Master Catalog Explorer (master_materials)
 # =============================================================================
 elif active_tab == "🏛️ Master Catalog Explorer (master_materials)" and has_dedup:
-    st.subheader("🏛️ Master Catalog Explorer (`master_materials`)")
-    st.markdown("Canonical parent master catalog with exactly one consolidated entity per unique material.")
+    st.title("🏛️ Master Catalog Explorer (master_materials)")
+    st.caption("Canonical master catalog with one consolidated entity per unique material (`new_master_code`).")
+    st.markdown("---")
 
     # Convert numeric fields for accurate aggregation
     if "cluster_record_count" in df_master.columns:
@@ -646,25 +528,6 @@ elif active_tab == "🏛️ Master Catalog Explorer (master_materials)" and has_
     # Ensure required parent columns exist
     if "norm_material_name" not in df_master.columns and "canonical_material_name" in df_master.columns:
         df_master["norm_material_name"] = df_master["canonical_material_name"].astype(str).str.lower().str.strip()
-
-    total_raw = len(df_mapped)
-    total_masters = len(df_master)
-    dupes_count = int(df_mapped["is_duplicate"].sum())
-    reduction = ((total_raw - total_masters) / total_raw * 100) if total_raw else 0.0
-
-    # Summary metric KPI cards
-    m1, m2, m3, m4 = st.columns(4)
-    with m1:
-        render_kpi_card("Total Canonical Masters", f"{total_masters:,}", badge_text="Consolidated SKUs", badge_type="blue", icon="🏛️")
-    with m2:
-        render_kpi_card("Redundancy Reduction Rate", f"{reduction:.2f}%", badge_text="⚡ High Compression", badge_type="green", icon="📈")
-    with m3:
-        render_kpi_card("Duplicate Records Resolved", f"{dupes_count:,}", badge_text=f"From {total_raw:,} records", badge_type="purple", icon="🔀")
-    with m4:
-        max_cluster_size = int(df_master["cluster_record_count"].max()) if not df_master.empty else 0
-        render_kpi_card("Largest Variant Cluster", f"{max_cluster_size:,} SKUs", badge_text="Consolidated to 1 Code", badge_type="neutral", icon="🎯")
-
-    st.markdown("---")
 
     # Top-Cluster Bar Chart & Category Distribution
     col_master_chart1, col_master_chart2 = st.columns(2)
@@ -753,8 +616,9 @@ elif active_tab == "🏛️ Master Catalog Explorer (master_materials)" and has_
 # PAGE 3: 🔗 Raw Item Tracking with Foreign Key
 # =============================================================================
 elif active_tab == "🔗 Raw Item Tracking with Foreign Key" and has_dedup:
-    st.subheader("🔗 Raw Item Tracking with Foreign Key")
-    st.markdown("Audit child table material_records_mapped tracing each legacy raw item back to its parent new_master_code.")
+    st.title("🔗 Raw Item Tracking with Foreign Key")
+    st.caption("Historical raw records mapped to their parent master code via foreign key relationship.")
+    st.markdown("---")
 
     # Referential integrity validation check
     valid_masters = set(df_master["new_master_code"])
@@ -765,23 +629,6 @@ elif active_tab == "🔗 Raw Item Tracking with Foreign Key" and has_dedup:
         st.success("🛡️ **Relational Foreign Key Integrity:** Validated (0 Orphan Records) — All child rows strictly map to an existing `master_materials.new_master_code`.")
     else:
         st.error(f"⚠️ **Foreign Key Constraint Violation:** {orphan_count} orphan records detected without a corresponding parent master code.")
-
-    # Summary KPI cards for Child Table
-    dupes_total = int(df_mapped["is_duplicate"].sum())
-    canonicals_total = len(df_mapped) - dupes_total
-    avg_score = float(df_mapped["similarity_score"].mean()) if "similarity_score" in df_mapped.columns else 1.0
-
-    k1, k2, k3, k4 = st.columns(4)
-    with k1:
-        render_kpi_card("Total Child Records", f"{len(df_mapped):,}", badge_text="Foreign Key Bound", badge_type="blue", icon="🔗")
-    with k2:
-        render_kpi_card("Flagged Duplicates", f"{dupes_total:,}", badge_text="is_duplicate = True", badge_type="purple", icon="🔀")
-    with k3:
-        render_kpi_card("Canonical Representatives", f"{canonicals_total:,}", badge_text="Cluster Roots", badge_type="green", icon="👑")
-    with k4:
-        render_kpi_card("Avg Match Similarity", f"{avg_score * 100:.1f}%", badge_text="Cohesion Score", badge_type="neutral", icon="🎯")
-
-    st.markdown("---")
 
     # Master Code Drill-Down Section
     st.subheader("Master Code Variant Drill-Down")
