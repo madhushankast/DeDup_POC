@@ -1,12 +1,18 @@
 # Apparel Material Deduplication & Master Catalog System
 
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-FF4B4B.svg)](https://streamlit.io/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-336791.svg)](https://www.postgresql.org/)
+[![DuckDB](https://img.shields.io/badge/DuckDB-0.10+-FFF000.svg)](https://duckdb.org/)
+[![RapidFuzz](https://img.shields.io/badge/RapidFuzz-3.0+-green.svg)](https://github.com/rapidfuzz/RapidFuzz)
+
 A scalable, high-performance deduplication, fuzzy clustering, and master material catalog generation pipeline for apparel raw materials, featuring SQL relational ingestion and an interactive Streamlit dashboard.
 
 ---
 
 ## Architecture & Pipeline Overview
 
-The pipeline processes 100k+ apparel catalog records across sequential stages, eliminating quadratic $O(N^2)$ comparisons through deterministic token-normalization, candidate blocking, Disjoint Set Union (DSU) graph clustering, and category isolation:
+The pipeline processes 100k+ apparel catalog records across sequential stages, eliminating quadratic $\mathcal{O}(N^2)$ comparisons through deterministic token-normalization, candidate blocking, Disjoint Set Union (DSU) graph clustering, and category isolation:
 
 ```text
 [PostgreSQL / CSV] Raw Materials (100,011 rows)
@@ -27,19 +33,48 @@ Streamlit Dashboard (http://localhost:8501) & Jupyter Notebook Suite
 
 ---
 
+## Deduplication Pipeline Results
+
+Across 100,011 raw catalog rows, the pipeline resolved **99,679 redundant records**, synthesizing them into **332 canonical master codes** with an overall **99.67% redundancy reduction**.
+
+| Category | Input Raw Records | Formed Clusters / Masters | Duplicate Rows Resolved | Redundancy Reduction |
+| :--- | :---: | :---: | :---: | :---: |
+| **Fabric** | 40,004 | 84 | 39,920 | 99.79% |
+| **Trim** | 22,002 | 66 | 21,936 | 99.70% |
+| **Thread** | 14,001 | 33 | 13,968 | 99.76% |
+| **Label** | 12,001 | 32 | 11,969 | 99.73% |
+| **Packaging** | 10,001 | 31 | 9,970 | 99.69% |
+| **Uncategorized** | 2,002 | 86 | 1,916 | 95.70% |
+| **TOTAL** | **100,011** | **332** | **99,679** | **99.67%** |
+
+### Analytics & Visualizations
+
+<p align="center">
+  <img src="reports/figures/funnel_chart.png" alt="Deduplication Funnel Chart" width="700"/>
+</p>
+
+<p align="center">
+  <img src="reports/figures/before_after_chart.png" alt="Before vs After Catalog Volume" width="700"/>
+</p>
+
+---
+
 ## Directory Structure
 
 ```text
 POC_Dedup/
 │
+├── .devcontainer/                        # VS Code Remote Containers & GitHub Codespaces config
+│   └── devcontainer.json
+│
 ├── config/
-│   ├── prefixes.yaml                     # Category-specific master code prefix mappings (e.g. FAB, TRM, THD)
+│   ├── prefixes.yaml                     # Category-specific master code prefix mappings (FAB, TRM, etc.)
 │   └── splink_rules.yaml                 # Fuzzy match threshold configuration (threshold >= 0.85)
 │
 ├── data/
 │   ├── 01_raw/                           # Immutable incoming raw catalog
 │   │   └── raw_materials.csv
-│   ├── 02_by_category/                   # Category-partitioned files
+│   ├── 02_by_category/                   # Category-partitioned CSVs
 │   ├── 03_clusters/                      # Intermediate clustered partitions
 │   ├── 04_curated/                       # Curated category datasets with cluster metrics
 │   ├── 05_unique/                        # Canonical master materials (1 row per master code)
@@ -51,95 +86,78 @@ POC_Dedup/
 │   ├── 03_unique_materials_master.ipynb
 │   └── 04_analysis_dashboard.ipynb
 │
+├── reports/
+│   └── figures/                          # Visualization charts and pipeline metrics
+│
 ├── scripts/
-│   └── deduplicate_and_load.py           # Single self-contained SQL pipeline script (Extract, Deduplicate, Ingest)
+│   └── deduplicate_and_load.py           # Self-contained SQL pipeline (Extract, Deduplicate, Ingest)
 │
 ├── app.py                                # Interactive Streamlit dashboard
 ├── .env.example                          # Database connection template
-├── .env                                  # Local database credentials (ignored by git)
-├── .gitignore                            # Environment & temporary cache rules
+├── .gitignore                            # Git exclusion rules
 ├── requirements.txt                      # Project dependencies
-└── README.md                             # Documentation
+└── README.md                             # Project documentation
 ```
 
 ---
 
-## Quickstart & Running Steps
+## Quickstart Guide
 
-### 1. Environment Setup
+### 1. Clone & Setup Environment
 
-1. **Activate Virtual Environment**:
-   - **Windows (PowerShell):**
-     ```powershell
-     .\.venv\Scripts\Activate.ps1
-     ```
-   - **Windows (Command Prompt):**
-     ```cmd
-     .\.venv\Scripts\activate.bat
-     ```
-   - **Linux / macOS:**
-     ```bash
-     source .venv/bin/activate
-     ```
+```bash
+# Clone the repository
+git clone https://github.com/madhushankast/DeDup_POC.git
+cd DeDup_POC
 
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+# Create and activate virtual environment
+# Windows (PowerShell):
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 
-3. **Configure Database Connection (`.env`)**:
-   Create a `.env` file in the project root (or copy from `.env.example`):
-   ```ini
-   DATABASE_URL=postgresql+psycopg2://postgres:YOUR_PASSWORD@localhost:5432/postgres
+# Linux / macOS:
+python3 -m venv .venv
+source .venv/bin/activate
 
-   # Or individual parameters:
-   DB_HOST=localhost
-   DB_PORT=5432
-   DB_NAME=postgres
-   DB_USER=postgres
-   DB_PASSWORD=YOUR_PASSWORD
-   ```
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### 2. Configure Database (Optional for SQL Pipeline)
+
+Create a `.env` file in the project root (reference `.env.example`):
+
+```ini
+DATABASE_URL=postgresql+psycopg2://postgres:YOUR_PASSWORD@localhost:5432/postgres
+
+# Or Supabase / Remote PostgreSQL Pooler URI:
+# DATABASE_URL=postgresql+psycopg2://postgres.[REF]:[PASS]@aws-0-[REGION].pooler.supabase.com:6543/postgres
+```
 
 ---
 
-### 2. Database Preparation (PostgreSQL / pgAdmin)
+## Execution Modes
 
-If you haven't yet imported the raw materials CSV into PostgreSQL:
+### Mode 1: Interactive Streamlit Web Dashboard
 
-1. Open pgAdmin Query Tool connected to your target database (e.g., `postgres`).
-2. Run the DDL to create the raw staging table:
-   ```sql
-   CREATE TABLE IF NOT EXISTS raw_materials (
-       material_code             VARCHAR(50),
-       material_name             VARCHAR(255),
-       category                  VARCHAR(100),
-       composition               VARCHAR(255),
-       construction_spec         VARCHAR(255),
-       colour                    VARCHAR(100),
-       width_size                VARCHAR(100),
-       gsm                       VARCHAR(50),
-       inventory_uom             VARCHAR(50)
-   );
-   ```
-3. Import the CSV:
-   - **Via SQL `COPY`:**
-     ```sql
-     COPY raw_materials FROM 'D:/Projects/2026.10.22 POC_Dedup/data/01_raw/raw_materials.csv'
-     WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
-     ```
-   - **Or via pgAdmin GUI:** Right-click table `raw_materials` $\rightarrow$ **Import/Export Data...** $\rightarrow$ select file and click **OK**.
+Launch the web app to explore the raw catalog, inspect duplicate clusters, and view real-time metrics:
+
+```bash
+streamlit run app.py
+```
+- Available at: **`http://localhost:8501`**
+- **Capabilities:**
+  - **Raw Materials Overview**: KPI summary cards, Category bar charts, UOM distribution, filterable tables, and CSV export.
+  - **Master Catalog Explorer**: Redundancy reduction rates, cluster breakdown, and item variant drill-downs.
 
 ---
 
-### 3. Run Option A: Automated SQL Pipeline Script
+### Mode 2: Automated End-to-End Pipeline Script
 
-To extract raw records from PostgreSQL, perform fuzzy deduplication, generate standard master codes, and write normalized relational tables (`master_materials` and `material_records_mapped`) back into the database:
+Extract raw records from PostgreSQL, perform fuzzy deduplication, assign canonical master codes, and write normalized relational tables (`master_materials` and `material_records_mapped`):
 
-```powershell
-.venv\Scripts\python.exe scripts\deduplicate_and_load.py
-
-# Or
-python scripts\deduplicate_and_load.py
+```bash
+python scripts/deduplicate_and_load.py
 ```
 
 * **CLI Options:**
@@ -154,40 +172,34 @@ python scripts\deduplicate_and_load.py
 
 ---
 
-### 4. Run Option B: Interactive Streamlit Web Dashboard
+### Mode 3: Sequential Jupyter Notebooks
 
-Launch the web dashboard to visualize catalog statistics, category distributions, UOM breakdowns, and inspect duplicate clusters:
+For interactive research and exploratory data analysis:
 
-```powershell
-.venv\Scripts\python.exe -m streamlit run app.py
+1. **`notebooks/01_partition_by_category.ipynb`**: Partitions raw catalog data by category to prevent cross-domain false matches.
+2. **`notebooks/02_deduplicate_and_assign_codes.ipynb`**: Executes candidate blocking, RapidFuzz scoring, and Union-Find clustering.
+3. **`notebooks/03_unique_materials_master.ipynb`**: Generates 1 canonical row per unique master code.
+4. **`notebooks/04_analysis_dashboard.ipynb`**: Audits match quality, score distributions, and cluster cohesion.
+
+---
+
+## Staging Table DDL (PostgreSQL)
+
+If loading `raw_materials.csv` manually via PostgreSQL / pgAdmin:
+
+```sql
+CREATE TABLE IF NOT EXISTS raw_materials (
+    material_code             VARCHAR(50),
+    material_name             VARCHAR(255),
+    category                  VARCHAR(100),
+    composition               VARCHAR(255),
+    construction_spec         VARCHAR(255),
+    colour                    VARCHAR(100),
+    width_size                VARCHAR(100),
+    gsm                       VARCHAR(50),
+    inventory_uom             VARCHAR(50)
+);
+
+-- Copy command (replace with your local absolute path):
+-- COPY raw_materials FROM '/path/to/data/01_raw/raw_materials.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
 ```
-
-* Opens automatically at: **`http://localhost:8501`**
-* **Features:**
-  - **Raw Materials Overview:** KPI summary cards, Category bar charts, UOM donut distribution, Top 10 Colours, category filter, text search, and filtered CSV export.
-  - **Master Catalog Explorer:** Redundancy reduction rate, cluster distribution, and drill-down into master codes to inspect mapped variants.
-
----
-
-### 5. Run Option C: Sequential Jupyter Notebooks
-
-If you prefer exploring step-by-step logic and generating CSV partition exports:
-
-1. **`notebooks/01_partition_by_category.ipynb`**: Partitions raw catalog data by category to avoid cross-domain false positives.
-2. **`notebooks/02_deduplicate_and_assign_codes.ipynb`**: Performs candidate blocking, RapidFuzz scoring, Union-Find clustering, and generates curated datasets.
-3. **`notebooks/03_unique_materials_master.ipynb`**: Extracts 1 canonical row per unique master code.
-4. **`notebooks/04_analysis_dashboard.ipynb`**: Comprehensive quality audit, score distributions, and interactive widget explorer.
-
----
-
-## Deduplication Pipeline Results
-
-| Category | Input Raw Records | Formed Clusters / Masters | Duplicate Rows Resolved | Redundancy Reduction |
-| :--- | :---: | :---: | :---: | :---: |
-| **Fabric** | 40,004 | 84 | 39,920 | 99.79% |
-| **Trim** | 22,002 | 66 | 21,936 | 99.70% |
-| **Thread** | 14,001 | 33 | 13,968 | 99.76% |
-| **Label** | 12,001 | 32 | 11,969 | 99.73% |
-| **Packaging** | 10,001 | 31 | 9,970 | 99.69% |
-| **Uncategorized** | 2,002 | 86 | 1,916 | 95.70% |
-| **TOTAL** | **100,011** | **332** | **99,679** | **99.67%** |
