@@ -100,6 +100,134 @@ st.markdown(
         color: #94a3b8;
         border: 1px solid rgba(148, 163, 184, 0.22);
     }
+
+    /* Top Header & Navigation Banner */
+    .top-header-banner {
+        background: linear-gradient(135deg, rgba(30, 41, 59, 0.45) 0%, rgba(15, 23, 42, 0.6) 100%);
+        border: 1px solid rgba(128, 128, 128, 0.22);
+        border-radius: 14px;
+        padding: 18px 24px;
+        margin-bottom: 14px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+        backdrop-filter: blur(12px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+    .top-header-left {
+        display: flex;
+        flex-direction: column;
+    }
+    .top-header-title {
+        font-size: 1.65rem;
+        font-weight: 700;
+        margin: 0;
+        line-height: 1.2;
+        letter-spacing: -0.3px;
+    }
+    .top-header-caption {
+        font-size: 0.9rem;
+        opacity: 0.76;
+        margin-top: 5px;
+    }
+    .status-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+        padding: 7px 16px;
+        border-radius: 9999px;
+        font-weight: 600;
+        font-size: 0.85rem;
+        letter-spacing: 0.2px;
+    }
+    .status-pill-green {
+        background: rgba(34, 197, 94, 0.14);
+        color: #22c55e;
+        border: 1px solid rgba(34, 197, 94, 0.35);
+        box-shadow: 0 0 14px rgba(34, 197, 94, 0.15);
+    }
+    .status-pill-blue {
+        background: rgba(59, 130, 246, 0.14);
+        color: #60a5fa;
+        border: 1px solid rgba(59, 130, 246, 0.35);
+        box-shadow: 0 0 14px rgba(59, 130, 246, 0.15);
+    }
+    .status-dot {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .dot-green {
+        background-color: #22c55e;
+        box-shadow: 0 0 8px #22c55e;
+        animation: status-pulse-green 2s infinite ease-in-out;
+    }
+    .dot-blue {
+        background-color: #3b82f6;
+        box-shadow: 0 0 8px #3b82f6;
+        animation: status-pulse-blue 2s infinite ease-in-out;
+    }
+    @keyframes status-pulse-green {
+        0% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.6); }
+        70% { transform: scale(1.15); opacity: 1; box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
+        100% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+    }
+    @keyframes status-pulse-blue {
+        0% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.6); }
+        70% { transform: scale(1.15); opacity: 1; box-shadow: 0 0 0 6px rgba(59, 130, 246, 0); }
+        100% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+    }
+
+    /* Top Navigation Switcher Row */
+    .top-nav-container {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(128, 128, 128, 0.18);
+        border-radius: 12px;
+        padding: 8px 14px;
+        margin-bottom: 18px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .nav-label {
+        font-weight: 700;
+        font-size: 0.84rem;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        opacity: 0.78;
+        padding-right: 6px;
+    }
+
+    /* Modern horizontal radio button styling */
+    div[data-testid="stRadio"] > div[role="radiogroup"] {
+        gap: 10px;
+        background: rgba(255, 255, 255, 0.03);
+        padding: 4px 6px;
+        border-radius: 10px;
+        border: 1px solid rgba(128, 128, 128, 0.16);
+    }
+    div[data-testid="stRadio"] > div[role="radiogroup"] > label {
+        padding: 6px 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.92rem;
+        transition: all 0.2s ease;
+        border: 1px solid transparent;
+    }
+    div[data-testid="stRadio"] > div[role="radiogroup"] > label:hover {
+        background: rgba(59, 130, 246, 0.1);
+        border-color: rgba(59, 130, 246, 0.3);
+    }
+    div[data-testid="stRadio"] > div[role="radiogroup"] > label[data-checked="true"] {
+        background: rgba(59, 130, 246, 0.2);
+        border-color: #3b82f6;
+        color: #60a5fa;
+        box-shadow: 0 2px 8px rgba(59, 130, 246, 0.22);
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -233,10 +361,6 @@ def load_data():
             raise db_err
 
 
-# Header section
-st.title("🧵 Apparel Raw Materials & Deduplication Dashboard")
-st.caption("PostgreSQL Analytics, Catalog Normalization & Duplicate Management")
-
 try:
     df_raw, df_master, df_mapped, has_dedup, data_source_mode = load_data()
 except Exception as e:
@@ -244,21 +368,75 @@ except Exception as e:
     st.info("Please verify your database credentials in `.env` or verify the repository data directory.")
     st.stop()
 
-# Sidebar Controls
-st.sidebar.header("Navigation & Status")
-if "PostgreSQL" in data_source_mode:
-    st.sidebar.success(f"🟢 {data_source_mode}")
-else:
-    st.sidebar.info(f"☁️ {data_source_mode}")
+# =============================================================================
+# TOP HEADER: Navigation & Status Banner
+# =============================================================================
+status_pill_class = "status-pill-green" if "PostgreSQL" in data_source_mode else "status-pill-blue"
+dot_class = "dot-green" if "PostgreSQL" in data_source_mode else "dot-blue"
 
-active_tab = st.sidebar.radio(
-    "Select View",
-    ["📊 Raw Materials Overview", "✨ Master Deduplication & Clusters"] if has_dedup else ["📊 Raw Materials Overview"],
+st.markdown(
+    f"""
+    <div class="top-header-banner">
+        <div class="top-header-left">
+            <h1 class="top-header-title">🧵 Apparel Raw Materials & Deduplication Dashboard</h1>
+            <div class="top-header-caption">PostgreSQL Analytics &bull; RapidFuzz Fuzzy Clustering &bull; Catalog Normalization</div>
+        </div>
+        <div class="top-header-right">
+            <div class="status-pill {status_pill_class}">
+                <span class="status-dot {dot_class}"></span>
+                <span>{data_source_mode}</span>
+            </div>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
 
-if st.sidebar.button("🔄 Refresh Data Cache"):
-    st.cache_data.clear()
-    st.rerun()
+# Top Navigation Bar Row (Select View Switcher & Cache Refresh)
+nav_col1, nav_col2 = st.columns([3.8, 1.2], gap="medium")
+
+with nav_col1:
+    view_options = (
+        ["📊 Raw Materials Overview", "✨ Master Deduplication & Clusters"]
+        if has_dedup
+        else ["📊 Raw Materials Overview"]
+    )
+    active_tab = st.radio(
+        "Select View",
+        options=view_options,
+        horizontal=True,
+        label_visibility="collapsed",
+        key="top_view_navigation",
+    )
+
+with nav_col2:
+    if st.button("🔄 Refresh Data Cache", use_container_width=True, key="top_refresh_btn"):
+        st.cache_data.clear()
+        st.rerun()
+
+st.markdown("<div style='margin-bottom: 12px;'></div>", unsafe_allow_html=True)
+
+# Sidebar System & Diagnostics
+with st.sidebar:
+    st.header("Navigation & Status")
+    if "PostgreSQL" in data_source_mode:
+        st.success(f"🟢 {data_source_mode}")
+    else:
+        st.info(f"☁️ {data_source_mode}")
+
+    st.markdown("---")
+    st.markdown("### 📊 Pipeline Summary")
+    st.markdown(f"- **Raw Records:** `{len(df_raw):,}`")
+    if has_dedup:
+        st.markdown(f"- **Master Codes:** `{len(df_master):,}`")
+        reduction_val = ((len(df_raw) - len(df_master)) / len(df_raw) * 100) if len(df_raw) else 0
+        st.markdown(f"- **Redundancy Reduced:** `{reduction_val:.2f}%`")
+        st.markdown(f"- **Algorithm:** `RapidFuzz (0.85) + DSU`")
+
+    st.markdown("---")
+    if st.button("🔄 Clear & Reload Cache", key="sidebar_refresh_btn", use_container_width=True):
+        st.cache_data.clear()
+        st.rerun()
 
 
 # -----------------------------------------------------------------------------
