@@ -392,37 +392,42 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Top Navigation Bar Row (Select View Switcher & Cache Refresh)
-nav_col1, nav_col2 = st.columns([3.8, 1.2], gap="medium")
+# =============================================================================
+# NAVIGATION CONFIGURATION (Target 3-Page Layout)
+# =============================================================================
+PAGE_OPTIONS = (
+    [
+        "📊 Raw Materials Overview",
+        "🏛️ Master Catalog Explorer (master_materials)",
+        "🔗 Raw Item Tracking with Foreign Key",
+    ]
+    if has_dedup
+    else ["📊 Raw Materials Overview"]
+)
 
-with nav_col1:
-    view_options = (
-        ["📊 Raw Materials Overview", "✨ Master Deduplication & Clusters"]
-        if has_dedup
-        else ["📊 Raw Materials Overview"]
-    )
-    active_tab = st.radio(
-        "Select View",
-        options=view_options,
-        horizontal=True,
-        label_visibility="collapsed",
-        key="top_view_navigation",
-    )
+# Synchronize current active page across sidebar and top header
+if "current_page" not in st.session_state or st.session_state["current_page"] not in PAGE_OPTIONS:
+    st.session_state["current_page"] = PAGE_OPTIONS[0]
 
-with nav_col2:
-    if st.button("🔄 Refresh Data Cache", use_container_width=True, key="top_refresh_btn"):
-        st.cache_data.clear()
-        st.rerun()
-
-st.markdown("<div style='margin-bottom: 12px;'></div>", unsafe_allow_html=True)
-
-# Sidebar System & Diagnostics
+# -----------------------------------------------------------------------------
+# 1. Sidebar Navigation
+# -----------------------------------------------------------------------------
 with st.sidebar:
     st.header("Navigation & Status")
     if "PostgreSQL" in data_source_mode:
         st.success(f"🟢 {data_source_mode}")
     else:
         st.info(f"☁️ {data_source_mode}")
+
+    sidebar_selected = st.radio(
+        "Select View",
+        options=PAGE_OPTIONS,
+        index=PAGE_OPTIONS.index(st.session_state["current_page"]),
+        key="sidebar_page_radio",
+    )
+    if sidebar_selected != st.session_state["current_page"]:
+        st.session_state["current_page"] = sidebar_selected
+        st.rerun()
 
     st.markdown("---")
     st.markdown("### 📊 Pipeline Summary")
@@ -438,42 +443,98 @@ with st.sidebar:
         st.cache_data.clear()
         st.rerun()
 
+# -----------------------------------------------------------------------------
+# 2. Top Header Banner & Synchronized View Switcher
+# -----------------------------------------------------------------------------
+status_pill_class = "status-pill-green" if "PostgreSQL" in data_source_mode else "status-pill-blue"
+dot_class = "dot-green" if "PostgreSQL" in data_source_mode else "dot-blue"
 
-# -----------------------------------------------------------------------------
-# TAB 1: Raw Materials Overview (Requested View)
-# -----------------------------------------------------------------------------
+st.markdown(
+    f"""
+    <div class="top-header-banner">
+        <div class="top-header-left">
+            <h1 class="top-header-title">🧵 Apparel Raw Materials & Master Catalog System</h1>
+            <div class="top-header-caption">PostgreSQL Relational Analytics &bull; RapidFuzz Deduplication &bull; Parent/Child Normalization</div>
+        </div>
+        <div class="top-header-right">
+            <div class="status-pill {status_pill_class}">
+                <span class="status-dot {dot_class}"></span>
+                <span>{data_source_mode}</span>
+            </div>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+nav_col1, nav_col2 = st.columns([4, 1], gap="medium")
+with nav_col1:
+    top_selected = st.radio(
+        "Select View",
+        options=PAGE_OPTIONS,
+        index=PAGE_OPTIONS.index(st.session_state["current_page"]),
+        horizontal=True,
+        label_visibility="collapsed",
+        key="top_nav_page_radio",
+    )
+    if top_selected != st.session_state["current_page"]:
+        st.session_state["current_page"] = top_selected
+        st.rerun()
+
+with nav_col2:
+    if st.button("🔄 Refresh Cache", use_container_width=True, key="top_refresh_btn"):
+        st.cache_data.clear()
+        st.rerun()
+
+st.markdown("<div style='margin-bottom: 12px;'></div>", unsafe_allow_html=True)
+active_tab = st.session_state["current_page"]
+
+
+# =============================================================================
+# PAGE 1: 📊 Raw Materials Overview
+# =============================================================================
 if active_tab == "📊 Raw Materials Overview":
-    st.subheader("Raw Materials Catalog Metrics")
+    st.subheader("📊 Raw Materials Overview")
+    st.markdown("Inspect and audit incoming raw inventory records prior to deduplication.")
 
     # Clean category column for dashboard display
     df_raw["category"] = df_raw["category"].fillna("Uncategorized").replace({"": "Uncategorized"})
+    uncategorized_mask = df_raw["category"].astype(str).str.strip().str.lower().isin(["uncategorized", "none", "", "nan"])
+    uncategorized_count = int(uncategorized_mask.sum())
+    total_categories = df_raw["category"].nunique()
 
-    # Summary Metrics Row (Identical Sizing & Modern Styling)
+    # Summary metric KPI cards
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         render_kpi_card("Total Raw Records", f"{len(df_raw):,}", badge_text="100% Ingested", badge_type="blue", icon="📦")
     with col2:
-        render_kpi_card("Unique Categories", str(df_raw["category"].nunique()), badge_text="Partition Isolated", badge_type="purple", icon="🗂️")
+        render_kpi_card("Total Categories", str(total_categories), badge_text="Partition Isolated", badge_type="purple", icon="🗂️")
     with col3:
+        render_kpi_card(
+            "Uncategorized Records",
+            f"{uncategorized_count:,}",
+            badge_text="Needs Triage" if uncategorized_count > 0 else "All Categorized",
+            badge_type="neutral" if uncategorized_count == 0 else "purple",
+            icon="⚠️" if uncategorized_count > 0 else "✅",
+        )
+    with col4:
         colors_count = df_raw["colour"].nunique() if "colour" in df_raw.columns else 0
         render_kpi_card("Distinct Colours", f"{colors_count:,}", badge_text="Variants Tracked", badge_type="neutral", icon="🎨")
-    with col4:
-        uom_count = df_raw["inventory_uom"].nunique() if "inventory_uom" in df_raw.columns else 0
-        render_kpi_card("Inventory UOMs", str(uom_count), badge_text="Units of Measure", badge_type="neutral", icon="📏")
 
     st.markdown("---")
 
-    # Charts Row
-    col_left, col_right = st.columns(2)
+    # Category volume distribution bar chart
+    st.subheader("Category Volume Distribution")
+    col_chart_left, col_chart_right = st.columns(2)
 
-    with col_left:
+    with col_chart_left:
         cat_counts = df_raw["category"].value_counts().reset_index()
         cat_counts.columns = ["Category", "Record Count"]
         cat_fig = px.bar(
             cat_counts,
             x="Category",
             y="Record Count",
-            title="Materials per Category",
+            title="Raw Materials Volume per Category",
             text="Record Count",
             color="Category",
             color_discrete_sequence=px.colors.qualitative.Prism,
@@ -482,7 +543,7 @@ if active_tab == "📊 Raw Materials Overview":
         cat_fig.update_layout(showlegend=False, xaxis_title="", yaxis_title="Number of Items")
         st.plotly_chart(apply_chart_theme(cat_fig), use_container_width=True)
 
-    with col_right:
+    with col_chart_right:
         if "inventory_uom" in df_raw.columns:
             uom_fig = px.pie(
                 df_raw,
@@ -494,26 +555,10 @@ if active_tab == "📊 Raw Materials Overview":
             uom_fig.update_traces(textinfo="percent+label")
             st.plotly_chart(apply_chart_theme(uom_fig), use_container_width=True)
 
-    # Optional Color Distribution Bar Chart
-    if "colour" in df_raw.columns:
-        top_colors = df_raw["colour"].value_counts().head(10).reset_index()
-        top_colors.columns = ["Colour", "Count"]
-        color_fig = px.bar(
-            top_colors,
-            x="Colour",
-            y="Count",
-            title="Top 10 Most Frequent Colours",
-            text="Count",
-            color="Count",
-            color_continuous_scale="Blues",
-        )
-        color_fig.update_traces(texttemplate="%{text:,}", textposition="outside")
-        st.plotly_chart(apply_chart_theme(color_fig), use_container_width=True)
-
     st.markdown("---")
 
-    # Filterable Data Table
-    st.subheader("Data Explorer")
+    # Filterable Data Table: raw_materials table with category filter dropdown and material name search box
+    st.subheader("Raw Materials Table Explorer (`raw_materials`)")
 
     col_filter1, col_filter2 = st.columns([1, 2])
     with col_filter1:
@@ -521,7 +566,7 @@ if active_tab == "📊 Raw Materials Overview":
         selected_category = st.selectbox("Filter by Category", cat_options)
 
     with col_filter2:
-        search_query = st.text_input("🔍 Search by Material Name or Code", "")
+        search_query = st.text_input("🔍 Search by Material Name or Code", "", key="raw_search_query")
 
     # Apply filters
     filtered_df = df_raw
@@ -537,45 +582,75 @@ if active_tab == "📊 Raw Materials Overview":
             | filtered_df[code_col].astype(str).str.lower().str.contains(q, na=False)
         ]
 
-    st.caption(f"Displaying **{len(filtered_df):,}** matching rows (showing up to 500 in grid):")
+    st.caption(f"Displaying **{len(filtered_df):,}** matching raw inventory records (showing up to 500 in grid):")
     st.dataframe(filtered_df.head(500), use_container_width=True)
 
     # CSV Download Option
     csv_bytes = filtered_df.head(1000).to_csv(index=False).encode("utf-8")
     st.download_button(
-        label="📥 Download Current View as CSV",
+        label="📥 Download Filtered Raw Records as CSV",
         data=csv_bytes,
-        file_name=f"materials_{selected_category.lower()}.csv",
+        file_name=f"raw_materials_{selected_category.lower()}.csv",
         mime="text/csv",
+        key="raw_download_btn",
     )
 
-# -----------------------------------------------------------------------------
-# TAB 2: Deduplication & Master Catalog Insights
-# -----------------------------------------------------------------------------
-elif active_tab == "✨ Master Deduplication & Clusters" and has_dedup:
-    st.subheader("Normalized Master Catalog & Deduplication Analytics")
+
+# =============================================================================
+# PAGE 2: 🏛️ Master Catalog Explorer (master_materials)
+# =============================================================================
+elif active_tab == "🏛️ Master Catalog Explorer (master_materials)" and has_dedup:
+    st.subheader("🏛️ Master Catalog Explorer (`master_materials`)")
+    st.markdown("Canonical parent master catalog with exactly one consolidated entity per unique material.")
+
+    # Convert numeric fields for accurate aggregation
+    if "cluster_record_count" in df_master.columns:
+        df_master["cluster_record_count"] = pd.to_numeric(df_master["cluster_record_count"], errors="coerce").fillna(1).astype(int)
+
+    # Ensure required parent columns exist
+    if "norm_material_name" not in df_master.columns and "canonical_material_name" in df_master.columns:
+        df_master["norm_material_name"] = df_master["canonical_material_name"].astype(str).str.lower().str.strip()
 
     total_raw = len(df_mapped)
     total_masters = len(df_master)
     dupes_count = int(df_mapped["is_duplicate"].sum())
     reduction = ((total_raw - total_masters) / total_raw * 100) if total_raw else 0.0
 
-    # Summary Metrics Row (Identical Sizing & Modern Styling)
+    # Summary metric KPI cards
     m1, m2, m3, m4 = st.columns(4)
     with m1:
-        render_kpi_card("Total Raw Records", f"{total_raw:,}", badge_text="Source Catalog", badge_type="neutral", icon="📦")
+        render_kpi_card("Total Canonical Masters", f"{total_masters:,}", badge_text="Consolidated SKUs", badge_type="blue", icon="🏛️")
     with m2:
-        render_kpi_card("Normalized Master Codes", f"{total_masters:,}", badge_text=f"↓ {total_raw - total_masters:,} SKUs", badge_type="green", icon="🏷️")
+        render_kpi_card("Redundancy Reduction Rate", f"{reduction:.2f}%", badge_text="⚡ High Compression", badge_type="green", icon="📈")
     with m3:
-        render_kpi_card("Duplicates Consolidating", f"{dupes_count:,}", badge_text="Resolved Variants", badge_type="purple", icon="🔀")
+        render_kpi_card("Duplicate Records Resolved", f"{dupes_count:,}", badge_text=f"From {total_raw:,} records", badge_type="purple", icon="🔀")
     with m4:
-        render_kpi_card("Redundancy Reduction", f"{reduction:.2f}%", badge_text="⚡ High Compression", badge_type="green", icon="📈")
+        max_cluster_size = int(df_master["cluster_record_count"].max()) if not df_master.empty else 0
+        render_kpi_card("Largest Variant Cluster", f"{max_cluster_size:,} SKUs", badge_text="Consolidated to 1 Code", badge_type="neutral", icon="🎯")
 
     st.markdown("---")
 
-    col_m_left, col_m_right = st.columns(2)
-    with col_m_left:
-        # Category breakdown of master codes
+    # Top-Cluster Bar Chart & Category Distribution
+    col_master_chart1, col_master_chart2 = st.columns(2)
+
+    with col_master_chart1:
+        st.markdown("##### Top 10 Canonical Materials by Record Count")
+        top_clusters = df_master.sort_values(by="cluster_record_count", ascending=False).head(10)
+        fig_top_clusters = px.bar(
+            top_clusters,
+            x="cluster_record_count",
+            y="canonical_material_name",
+            orientation="h",
+            title="Highest Variation Duplicate Clusters",
+            labels={"cluster_record_count": "Raw Variations in Cluster", "canonical_material_name": "Canonical Material Name"},
+            color="cluster_record_count",
+            color_continuous_scale="Reds",
+        )
+        fig_top_clusters.update_layout(yaxis={"autorange": "reversed"})
+        st.plotly_chart(apply_chart_theme(fig_top_clusters), use_container_width=True)
+
+    with col_master_chart2:
+        st.markdown("##### Canonical Master Items by Category")
         master_cat = df_master["category"].value_counts().reset_index()
         master_cat.columns = ["Category", "Unique Master Items"]
         fig_master_cat = px.bar(
@@ -590,33 +665,154 @@ elif active_tab == "✨ Master Deduplication & Clusters" and has_dedup:
         fig_master_cat.update_traces(texttemplate="%{text:,}", textposition="outside")
         st.plotly_chart(apply_chart_theme(fig_master_cat), use_container_width=True)
 
-    with col_m_right:
-        # Largest Duplicate Clusters
-        top_clusters = df_master.sort_values(by="cluster_record_count", ascending=False).head(10)
-        fig_cluster = px.bar(
-            top_clusters,
-            x="cluster_record_count",
-            y="canonical_material_name",
-            orientation="h",
-            title="Top 10 Largest Duplicate Clusters",
-            labels={"cluster_record_count": "Raw Variations in Cluster", "canonical_material_name": "Canonical Name"},
-            color="cluster_record_count",
-            color_continuous_scale="Reds",
-        )
-        fig_cluster.update_layout(yaxis={"autorange": "reversed"})
-        st.plotly_chart(apply_chart_theme(fig_cluster), use_container_width=True)
+    st.markdown("---")
 
+    # Display Parent Table: master_materials
+    st.subheader("Parent Entity Table (`master_materials`)")
 
-    st.subheader("Master Catalog Explorer (`master_materials`)")
-    st.dataframe(df_master, use_container_width=True)
+    # Required columns: new_master_code, canonical_material_name, norm_material_name, category, cluster_id, cluster_record_count
+    target_master_cols = [
+        "new_master_code",
+        "canonical_material_name",
+        "norm_material_name",
+        "category",
+        "cluster_id",
+        "cluster_record_count",
+    ]
+    available_cols = [c for c in target_master_cols if c in df_master.columns]
+    remaining_cols = [c for c in df_master.columns if c not in available_cols]
+    ordered_master_df = df_master[available_cols + remaining_cols]
 
-    st.subheader("Raw Item Tracking with Foreign Key (`material_records_mapped`)")
-    selected_master = st.selectbox(
-        "Drill down into a Master Code to inspect grouped variants:",
-        options=df_master["new_master_code"].tolist(),
-        format_func=lambda code: f"{code} — {df_master.loc[df_master['new_master_code'] == code, 'canonical_material_name'].values[0]}",
+    col_m_search, col_m_cat = st.columns([2, 1])
+    with col_m_search:
+        m_search = st.text_input("🔍 Search Master Materials (by Code or Name)", "", key="master_search_input")
+    with col_m_cat:
+        m_categories = ["All"] + sorted([str(c) for c in ordered_master_df["category"].dropna().unique()])
+        m_cat_select = st.selectbox("Filter Category", m_categories, key="master_cat_select")
+
+    filtered_master = ordered_master_df
+    if m_cat_select != "All":
+        filtered_master = filtered_master[filtered_master["category"] == m_cat_select]
+    if m_search.strip():
+        mq = m_search.strip().lower()
+        filtered_master = filtered_master[
+            filtered_master["new_master_code"].astype(str).str.lower().str.contains(mq, na=False)
+            | filtered_master["canonical_material_name"].astype(str).str.lower().str.contains(mq, na=False)
+        ]
+
+    st.caption(f"Displaying **{len(filtered_master):,}** canonical master materials (Primary Key: `new_master_code`):")
+    st.dataframe(filtered_master, use_container_width=True)
+
+    csv_master_bytes = filtered_master.to_csv(index=False).encode("utf-8")
+    st.download_button(
+        label="📥 Download Master Catalog as CSV",
+        data=csv_master_bytes,
+        file_name="master_materials_catalog.csv",
+        mime="text/csv",
+        key="master_download_btn",
     )
 
-    cluster_variants = df_mapped[df_mapped["new_master_code"] == selected_master]
-    st.write(f"Found **{len(cluster_variants)}** raw entries mapped to **{selected_master}**:")
-    st.dataframe(cluster_variants, use_container_width=True)
+
+# =============================================================================
+# PAGE 3: 🔗 Raw Item Tracking with Foreign Key
+# =============================================================================
+elif active_tab == "🔗 Raw Item Tracking with Foreign Key" and has_dedup:
+    st.subheader("🔗 Raw Item Tracking with Foreign Key")
+    st.markdown("Audit child table material_records_mapped tracing each legacy raw item back to its parent new_master_code.")
+
+    # Referential integrity validation check
+    valid_masters = set(df_master["new_master_code"])
+    orphan_mask = ~df_mapped["new_master_code"].isin(valid_masters)
+    orphan_count = int(orphan_mask.sum())
+
+    if orphan_count == 0:
+        st.success("🛡️ **Relational Foreign Key Integrity:** Validated (0 Orphan Records) — All child rows strictly map to an existing `master_materials.new_master_code`.")
+    else:
+        st.error(f"⚠️ **Foreign Key Constraint Violation:** {orphan_count} orphan records detected without a corresponding parent master code.")
+
+    # Summary KPI cards for Child Table
+    dupes_total = int(df_mapped["is_duplicate"].sum())
+    canonicals_total = len(df_mapped) - dupes_total
+    avg_score = float(df_mapped["similarity_score"].mean()) if "similarity_score" in df_mapped.columns else 1.0
+
+    k1, k2, k3, k4 = st.columns(4)
+    with k1:
+        render_kpi_card("Total Child Records", f"{len(df_mapped):,}", badge_text="Foreign Key Bound", badge_type="blue", icon="🔗")
+    with k2:
+        render_kpi_card("Flagged Duplicates", f"{dupes_total:,}", badge_text="is_duplicate = True", badge_type="purple", icon="🔀")
+    with k3:
+        render_kpi_card("Canonical Representatives", f"{canonicals_total:,}", badge_text="Cluster Roots", badge_type="green", icon="👑")
+    with k4:
+        render_kpi_card("Avg Match Similarity", f"{avg_score * 100:.1f}%", badge_text="Cohesion Score", badge_type="neutral", icon="🎯")
+
+    st.markdown("---")
+
+    # Master Code Drill-Down Section
+    st.subheader("Master Code Variant Drill-Down")
+    st.caption("Select any parent `new_master_code` to audit all raw legacy records mapped to it.")
+
+    master_code_list = sorted(df_master["new_master_code"].tolist())
+    name_lookup = dict(zip(df_master["new_master_code"], df_master["canonical_material_name"]))
+
+    selected_master = st.selectbox(
+        "Select / Search Master Code:",
+        options=master_code_list,
+        format_func=lambda code: f"{code} — {name_lookup.get(code, 'Unknown')}",
+        key="master_drilldown_selector",
+    )
+
+    if selected_master:
+        cluster_variants = df_mapped[df_mapped["new_master_code"] == selected_master]
+        target_drill_cols = ["material_item_code", "material_name", "similarity_score", "is_duplicate"]
+        available_drill_cols = [c for c in target_drill_cols if c in cluster_variants.columns]
+        extra_drill_cols = [c for c in ["category", "cluster_id", "cluster_record_count"] if c in cluster_variants.columns]
+
+        st.markdown(
+            f"**Parent Code:** `{selected_master}` | **Canonical Material:** `{name_lookup.get(selected_master, '')}` | **Mapped Raw Variants:** `{len(cluster_variants)}`"
+        )
+        st.dataframe(cluster_variants[available_drill_cols + extra_drill_cols], use_container_width=True)
+
+    st.markdown("---")
+
+    # Full Mapped Child Table with is_duplicate filter toggles
+    st.subheader("Child Tracking Entity Explorer (`material_records_mapped`)")
+
+    col_child_filter1, col_child_filter2 = st.columns([2, 1])
+    with col_child_filter1:
+        dup_filter_option = st.radio(
+            "Filter by Duplicate Status (`is_duplicate`):",
+            options=["All Records", "Duplicates Only (True)", "Canonical Roots Only (False)"],
+            horizontal=True,
+            key="dup_filter_radio",
+        )
+
+    with col_child_filter2:
+        child_search = st.text_input("🔍 Search Child Table (Code, Name, or Master)", "", key="child_search_input")
+
+    # Filter by duplicate status toggle
+    filtered_mapped = df_mapped
+    if dup_filter_option == "Duplicates Only (True)":
+        filtered_mapped = filtered_mapped[filtered_mapped["is_duplicate"] == True]
+    elif dup_filter_option == "Canonical Roots Only (False)":
+        filtered_mapped = filtered_mapped[filtered_mapped["is_duplicate"] == False]
+
+    # Filter by search string
+    if child_search.strip():
+        cq = child_search.strip().lower()
+        filtered_mapped = filtered_mapped[
+            filtered_mapped["material_item_code"].astype(str).str.lower().str.contains(cq, na=False)
+            | filtered_mapped["material_name"].astype(str).str.lower().str.contains(cq, na=False)
+            | filtered_mapped["new_master_code"].astype(str).str.lower().str.contains(cq, na=False)
+        ]
+
+    st.caption(f"Displaying **{len(filtered_mapped):,}** mapped child items (showing up to 500 in grid):")
+    st.dataframe(filtered_mapped.head(500), use_container_width=True)
+
+    csv_child_bytes = filtered_mapped.head(2000).to_csv(index=False).encode("utf-8")
+    st.download_button(
+        label="📥 Download Child Mapping Table as CSV",
+        data=csv_child_bytes,
+        file_name="material_records_mapped.csv",
+        mime="text/csv",
+        key="child_download_btn",
+    )
